@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+body {
+  margin: 0;
+}
 
 
 /****************** Logo Style *********************/
@@ -169,14 +172,15 @@ main {
   display: flex;
 }
 
-.link-container svg {
+a svg {
   opacity: 0.7;
-  height: 100px;
+  height: auto;
+  width: 100%;
   padding: 10px;
   transition: opacity 1s ease-out;
 }
 
-.link-container svg:hover {
+a svg:hover {
   opacity: 1;
 }
 
@@ -191,8 +195,8 @@ article {
 }
 
 .photo-project {
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: auto;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -230,6 +234,10 @@ article {
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("schermata-play.png");
 }
 
+.flickr-app {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("schermata-flickr.png");
+}
+
 .button-container {
   display: flex;
   flex-direction: row;
@@ -247,10 +255,75 @@ button:hover {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
+/************************* Badges ****************************/
+
+.badges {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.badge svg {
+  width: 30px;
+}
+
+
 
 /************************* Footer ****************************/
 
 footer {
   padding: 20px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(99, 159, 255, 0.9));
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(99, 159, 255, 0.6));
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+
+/************************* Tablet view ********************/
+
+@media (min-width: 700px) {
+
+  .photo-project {
+     height: 300px;
+   }
+
+   .logo-svg {
+     height: 50%;
+     width: 50%;
+   }
+
+   .name-svg {
+     height: 80%;
+     width: 80%;
+   }
+
+  main {
+    padding-top: 80px;
+  }
+  a svg {
+    width: 70px;
+  }
+  .link-container {
+    justify-content: center;
+  }
+
+  .info-project {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .description {
+    flex: 1;
+    padding: 10px 50px;
+  }
+
+  .badges {
+    flex: 1;
+  }
 }

@@ -1,5 +1,12 @@
-const buttonOpenVideoPlayer = document.getElementById("open-video-player");
-const buttonCodeVideoPlayer = document.getElementById("code-video-player");
+const button = document.getElementsByTagName("button");
 
-buttonOpenVideoPlayer.addEventListener("click",() => window.open('http://www.lucatardito.com/Interactive-Video-Player','_blank','resizable=yes'));
-buttonCodeVideoPlayer.addEventListener("click",() => window.open('https://github.com/lucatardi/Interactive-Video-Player','_blank','resizable=yes'));
+for(let i=0; i < button.length; i++) {
+  button[i].addEventListener("click",(event) => {
+    let link = event.target.getAttribute("value");
+    if(link.length < 35) {
+      window.open(`http://www.lucatardito.com/${link}`,'_blank','resizable=yes');
+    } else {
+      window.open(link,'_blank','resizable=yes');
+    }
+  });
+}

@@ -192,7 +192,8 @@ article {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 10px 80px;
+  padding: 40px 10px 100px;
+  }
 }
 
 .photo-project {
@@ -367,9 +368,5 @@ footer {
 
   .info-project {
     padding: 20px 0 50px;
-  }
-
-  article {
-    padding: 40px 10px 100px;
   }
 }

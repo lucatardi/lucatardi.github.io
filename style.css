@@ -74,8 +74,8 @@ body {
   stroke: black;
   fill: transparent;
   stroke-width: 1px;
-  stroke-dasharray: 135;
-  stroke-dashoffset: 135;
+  stroke-dasharray: 135px;
+  stroke-dashoffset: 135px;
   animation: offset 3s linear forwards, fill-it 0.5s linear forwards 3s;
 }
 
@@ -88,7 +88,7 @@ body {
 @keyframes fill-it {
   100% {
     fill: black;
-    strock: transparent;
+    stroke: transparent;
   }
 }
 

@@ -10,3 +10,9 @@ for(let i=0; i < button.length; i++) {
     }
   });
 }
+
+// https://github.com/jlmakes/scrollreveal for scroll control element.
+window.sr = ScrollReveal({ reset: true });
+sr.reveal('.info-project',{ duration: 800 });
+sr.reveal('.more-info',{ duration: 1400 });
+sr.reveal('article',{ duration: 500 });

@@ -222,7 +222,7 @@ article {
 
 
 .video-player {
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("schermata-video-player.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("schermata-video-player.jpg");
 }
 
 .style-guide {
@@ -230,7 +230,7 @@ article {
 }
 
 .web-app-dashboard {
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("schermata-dashboard-app.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("schermata-dashboard-app.jpg");
 }
 
 .game-show-app {
@@ -238,7 +238,7 @@ article {
 }
 
 .flickr-app {
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("schermata-flickr.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("schermata-flickr.jpg");
 }
 
 .button-container {

@@ -76,7 +76,7 @@ body {
   stroke-width: 1px;
   stroke-dasharray: 135px;
   stroke-dashoffset: 135px;
-  animation: offset 3s linear forwards, fill-it 0.5s linear forwards 3s;
+  animation: offset 3s linear forwards 3s, fill-it 0.5s linear forwards 6s;
 }
 
 @keyframes offset {
@@ -226,7 +226,7 @@ article {
 }
 
 .style-guide {
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("schermata-style-guide.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("schermata-style-guide.jpg");
 }
 
 .web-app-dashboard {
@@ -234,7 +234,7 @@ article {
 }
 
 .game-show-app {
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("schermata-play.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("schermata-play.jpg");
 }
 
 .flickr-app {

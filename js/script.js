@@ -30,11 +30,13 @@ $(document).ready(function(){
     });
 
     $('.owl-carousel').owlCarousel({
-	    loop:true,
-	    items: 4,
+	    loop: true,
+		items: 4,
+		autoplay: true,
+		autoplaySpeed: 6000,
 	    responsive:{
 	        0:{
-	            items:1
+	            items:2
 	        },
 	        480:{
 	            items:2
@@ -43,7 +45,7 @@ $(document).ready(function(){
 	            items:3
 	        },
 	        938:{
-	            items:4
+	            items:5
 	        }
 	    }
 	});

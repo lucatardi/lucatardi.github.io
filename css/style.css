@@ -17,6 +17,15 @@ body {
     z-index: 6;
 }
 
+.about-me_title {
+    color: #2980b9;
+    padding: 30px 0 15px;
+}
+
+.about-me_content {
+    font-size: large;
+}
+
 .slides-navigation .prev, 
 .slides-navigation .next {
     width: 47px;

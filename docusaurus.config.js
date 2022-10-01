@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  projectName: 'lucatardi.github.io',
-  organizationName: 'tardito-dev',
+  projectName: 'tardito-dev',
+  organizationName: 'lucatardi',
   trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful

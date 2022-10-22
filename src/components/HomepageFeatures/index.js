@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Italy 🇮🇹
+        Austria 🇦🇹 Bahamas 🇧🇸 Belgium 🇧🇪 Cyprus 🇨🇾 Czech Republic 🇨🇿 Dominican Republic 🇩🇴 France 🇫🇷 Italy 🇮🇹 Ireland 🇮🇪 Spain 🇪🇸 United States 🇺🇸 Ukraine 🇺🇦 Turkey 🇹🇷 Portugal 🇵🇹 Puerto Rico 🇵🇷 Virgin Islands 🇻🇮 United Kingdom 🇬🇧 Germany 🇩🇪 Netherlands 🇳🇱 Switzerland 🇨🇭 San Marino 🇸🇲 Malta 🇲🇹 Tunisia 🇹🇳 Egypt 🇪🇬 Morocco 🇲🇦 Greece 🇬🇷 Israel 🇮🇱 Palestine 🇵🇸 Slovakia 🇸🇰 Hungary 🇭🇺   
       </>
     ),
   },
@@ -17,8 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <code>React</code> <code>Angular</code> <code>JavaScript</code> <code>HTML</code> <code>CSS</code> <code>Git</code> <code>GitHub</code> <code>GTM</code> <code>Jenkins</code> <code>Docker</code> <code>HTML</code>
       </>
     ),
   }

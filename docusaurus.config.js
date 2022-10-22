@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Luca Tardito',
-  tagline: 'Coding | Travelling | Watching 🐧 videos',
+  tagline: '👨🏻‍💻 Coder & Traveller 🗺',
   url: 'https://lucatardi.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -52,19 +52,19 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'tardito.dev',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'My Penguin Logo',
+          src: 'img/penguin_icon.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Tech Tutorial 👨🏻‍💻',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Travel Blog 🗺', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'right',

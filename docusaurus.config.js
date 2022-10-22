@@ -31,15 +31,15 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+            // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -75,11 +75,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            // title: 'Docs',
+            title: 'Sections',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Tech Tutorial 👨🏻‍💻',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Travel Blog 🗺',
+                to: '/blog',
               },
             ],
           },
@@ -87,29 +91,25 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/luca.tardito',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/tarditoluca',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Contacts',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Linkedin',
+                href: 'https://ie.linkedin.com/in/lucatardito',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/lucatardi',
               },
             ],
           },

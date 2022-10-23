@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Visited Countries',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    src: './img/penguin_travel.png',
     description: (
       <>
         Austria 🇦🇹 Bahamas 🇧🇸 Belgium 🇧🇪 Cyprus 🇨🇾 Czech Republic 🇨🇿 Dominican Republic 🇩🇴 France 🇫🇷 Italy 🇮🇹 Ireland 🇮🇪 Spain 🇪🇸 United States 🇺🇸 Ukraine 🇺🇦 Turkey 🇹🇷 Portugal 🇵🇹 Puerto Rico 🇵🇷 Virgin Islands 🇻🇮 United Kingdom 🇬🇧 Germany 🇩🇪 Netherlands 🇳🇱 Switzerland 🇨🇭 San Marino 🇸🇲 Malta 🇲🇹 Tunisia 🇹🇳 Egypt 🇪🇬 Morocco 🇲🇦 Greece 🇬🇷 Israel 🇮🇱 Palestine 🇵🇸 Slovakia 🇸🇰 Hungary 🇭🇺   
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Visited Technologies',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    src: './img/penguin_laptop.png',
     description: (
       <>
         <code>React</code> <code>Angular</code> <code>JavaScript</code> <code>HTML</code> <code>CSS</code> <code>Git</code> <code>GitHub</code> <code>GTM</code> <code>Jenkins</code> <code>Docker</code> <code>HTML</code>
@@ -23,11 +23,11 @@ const FeatureList = [
   }
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, src}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={src} width='80%'/>
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

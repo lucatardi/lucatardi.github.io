@@ -6,14 +6,6 @@ title: Luca
 
 # Luca Tardito
 
----
-titolo: Luca
----
-
-<img src="/img/me.png" alt="me" width="200"/>
-
-# Luca Tardito
-
 ### Su di me
 Ciao 👋
 Sono un ragazzo italiano che si gode la vita a Dublino. Dove durante i giorni feriali lavoro come sviluppatore software presso [Travelport](https://www.travelport.com/) e durante i fine settimana viaggio ed esploro nuovi posti. Tra una riga di codice e un volo mi piace cucinare i piatti della tradizione italiana. Eh si.. nel caso non te ne sia ancora accorto: adoro i pinguini 🐧.

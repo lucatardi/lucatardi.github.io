@@ -40,3 +40,8 @@ When I was close to the finish line I remember I went to Milan for an interview 
 #### Chapter 4. A new home
 A few days later I was at the university waiting for another exam to start and I read a brochure talking about Dublin as the European silicon valley with enterprise companies having a hard time finding software engineers. At that moment I thought that moving to Dublin was the fastest way to a successful career.
 I was able to sell the bar, which by the way it is still open and you can find it [here](https://goo.gl/maps/5H49EppecEMUtHEC7), complete the studies and get my degree and after three days of my celebration moving to Dublin.
+
+#### Chapter 5. Life in Dublin
+I dedicated my first half year in Dublin in studying English at [Delfin English School](https://delfinschool.com/) while It was challenging as first time away from my family, friends and country, It was at the same time mindblowing to start to have a commun lenguage to share and learn stories from people coming from complately different cultures.
+When I felt my English was enough to start to work in tech I immediately found an internship in a startup called [Outbound](https://www.outboundsales.io/). The internship was not paid and I had to work during the nights as barback, bringing ice and bottles up and down between floors in a nightclub.
+That was only for a few months as after that my carrear started.

@@ -8,7 +8,7 @@ title: Luca
 
 ### Su di me
 Ciao 👋
-Sono un ragazzo italiano che si gode la vita a Dublino. Dove durante i giorni feriali lavoro come sviluppatore software presso [Travelport](https://www.travelport.com/) e durante i fine settimana viaggio ed esploro nuovi posti. Tra una riga di codice e un volo mi piace cucinare i piatti della tradizione italiana. Eh si.. nel caso non te ne sia ancora accorto: adoro i pinguini 🐧.
+Vivo a Dublino dove nei giorni feriali lavoro come sviluppatore software presso [Travelport](https://www.travelport.com/) e durante i fine settimana viaggio ed esploro nuovi posti. Tra una riga di codice e un volo mi piace cucinare i piatti della tradizione italiana. Eh si.. nel caso non te ne sia ancora accorto: adoro i pinguini 🐧.
 
 ### La mia storia
 Mi piace pensare alla mia vita come a un insieme di capitoli in cui ognuno racchiude un momento o un'esperienza specifica che ho avuto, definendo chi sono oggi.
@@ -40,3 +40,8 @@ Quando ero vicino alla laurea ricordo di essere andato a Milano per un colloquio
 
 #### Capitolo 4. Una nuova casa
 Alcuni giorni dopo ero all'università in attesa dell'inizio di un altro esame e ho letto un opuscolo che parlava di Dublino come della Silicon Valley europea con le aziende che hanno difficoltà a trovare ingegneri del software. In quel momento ho pensato che trasferirmi a Dublino fosse il modo più veloce per una carriera di successo. Ho potuto vendere il bar, che tra l'altro è ancora aperto e lo puoi trovare [qui](https://goo.gl/maps/5H49EppecEMUtHEC7), completare gli studi e prendere la laurea e dopo tre giorni di festa mi sono trasferito a Dublino.
+
+#### Capitolo 4. Vita a Dublino
+Ho dedicato il mio primo semestre a Dublino allo studio dell'inglese presso la [Delfin English School](https://delfinschool.com/) ero per la prima volta lontano dalla mia famiglia, dai miei amici e dal mio paese, ma allo stesso tempo strabiliato ad avere una lingua comune con la quale condividere esperienze e storie con persone provenienti da culture completamente diverse.
+Quando ho realizzato che il mio inglese era sufficiente per iniziare a lavorare nel settore tecnologico, ho subito trovato un tirocinio in una startup chiamata [Outbound](https://www.outboundsales.io/). Il tirocinio non veniva pagato e dovevo lavorare di notte come barback, portando ghiaccio e bottiglie su e giù tra i piani di una discoteca.
+Questo è stato solo per pochi mesi poiché dopo è iniziata la mia carriera.

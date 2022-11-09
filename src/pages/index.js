@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/luca">
-            About me
+              <Translate id="homepage.aboutMe">About me</Translate>
           </Link>
         </div>
       </div>

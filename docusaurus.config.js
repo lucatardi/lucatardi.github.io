@@ -58,13 +58,13 @@ const config = {
           src: 'img/penguin_icon.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tech Tutorial 👨🏻‍💻',
-          },
-          {to: '/blog', label: 'Travel Blog 🗺', position: 'left'},
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Tech Tutorial 👨🏻‍💻',
+          // },
+          // {to: '/blog', label: 'Travel Blog 🗺', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'right',
@@ -74,19 +74,19 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Sections',
-            items: [
-              {
-                label: 'Tech Tutorial 👨🏻‍💻',
-                to: '/docs/intro',
-              },
-              {
-                label: 'Travel Blog 🗺',
-                to: '/blog',
-              },
-            ],
-          },
+          // {
+          //   title: 'Sections',
+          //   items: [
+          //     {
+          //       label: 'Tech Tutorial 👨🏻‍💻',
+          //       to: '/docs/intro',
+          //     },
+          //     {
+          //       label: 'Travel Blog 🗺',
+          //       to: '/blog',
+          //     },
+          //   ],
+          // },
           {
             title: 'Community',
             items: [

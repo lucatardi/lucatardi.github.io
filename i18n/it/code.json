@@ -256,5 +256,8 @@
   },
   "homepage.siteConfig.tagline": {
     "message": "👨🏻‍💻 Sviluppatore & Viaggiatore 🗺"
+  },
+  "homepage.aboutMe": {
+    "message": "Su di me"
   }
 }

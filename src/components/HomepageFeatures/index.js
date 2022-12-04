@@ -17,7 +17,7 @@ const FeatureList = [
     src: './img/penguin_laptop.png',
     description: (
       <>
-        <code>React</code> <code>Angular</code> <code>JavaScript</code> <code>HTML</code> <code>CSS</code> <code>Git</code> <code>GitHub</code> <code>GTM</code> <code>Jenkins</code> <code>Docker</code> <code>HTML</code> <code>Azure</code> <code>GitLab</code> <code>BitBucket</code> <code>PostCSS</code> <code>SCSS</code> <code>CSS-in-JS</code> <code>Storybook</code>
+        <code>React</code> <code>Angular</code> <code>JavaScript</code> <code>CSS</code> <code>Git</code> <code>GitHub</code> <code>GTM</code> <code>Jenkins</code> <code>Docker</code> <code>HTML</code> <code>Azure</code> <code>GitLab</code> <code>BitBucket</code> <code>PostCSS</code> <code>SCSS</code> <code>CSS-in-JS</code> <code>Storybook</code> <code>Express</code> <code>Webpack</code> <code>Node.js</code> <code>Typescript</code> <code>Rxjs</code> <code>REST API</code> <code>Redux</code> <code>Graphql</code> <code>Karma</code> <code>Jasmine</code> <code>Cypress</code>
       </>
     ),
   }

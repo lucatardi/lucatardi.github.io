@@ -45,3 +45,10 @@ I was able to sell the bar, which by the way it is still open and you can find i
 I dedicated my first half year in Dublin in studying English at [Delfin English School](https://delfinschool.com/) while It was challenging as first time away from my family, friends and country, It was at the same time mindblowing to start to have a commun lenguage to share and learn stories from people coming from complately different cultures.
 When I felt my English was enough to start to work in tech I immediately found an internship in a startup called [Outbound](https://www.outboundsales.io/). The internship was not paid and I had to work during the nights as barback, bringing ice and bottles up and down between floors in a nightclub.
 That was only for a few months as after that my carrear started.
+
+## Professional life
+Since the beginning of my carrear in 2017 I got passionated about web developement, specifically about the client site. cv.
+
+
+
+

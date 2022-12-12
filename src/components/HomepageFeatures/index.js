@@ -27,7 +27,7 @@ function Feature({Svg, title, description, src}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <img src={src} width='80%' style={{borderRadius: '5%'}}/>
+        <img src={src} width='80%' style={{borderRadius: '90% 10% 90% 10% / 13% 82% 18% 87%', boxShadow: '0px -10px 38px -2px rgba(0,0,0,0.1)'}}/>
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

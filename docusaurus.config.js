@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Luca Tardito',
   tagline: '👨🏻‍💻 Coder & Traveller 🗺',
-  url: 'https://lucatardi.github.io/',
+  url: 'https://tardito.dev/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

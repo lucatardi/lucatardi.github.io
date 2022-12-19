@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Luca Tardito',
-  tagline: '👨🏻‍💻 Coder & Traveller 🗺',
+  tagline: 'Code & Travel',
   url: 'https://tardito.dev/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -73,47 +73,47 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          // {
-          //   title: 'Sections',
-          //   items: [
-          //     {
-          //       label: 'Tech Tutorial 👨🏻‍💻',
-          //       to: '/docs/intro',
-          //     },
-          //     {
-          //       label: 'Travel Blog 🗺',
-          //       to: '/blog',
-          //     },
-          //   ],
-          // },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Instagram',
-                href: 'https://www.instagram.com/luca.tardito',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/tarditoluca',
-              },
-            ],
-          },
-          {
-            title: 'Contacts',
-            items: [
-              {
-                label: 'Linkedin',
-                href: 'https://ie.linkedin.com/in/lucatardito',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/lucatardi',
-              },
-            ],
-          },
-        ],
+        // links: [
+        //   // {
+        //   //   title: 'Sections',
+        //   //   items: [
+        //   //     {
+        //   //       label: 'Tech Tutorial 👨🏻‍💻',
+        //   //       to: '/docs/intro',
+        //   //     },
+        //   //     {
+        //   //       label: 'Travel Blog 🗺',
+        //   //       to: '/blog',
+        //   //     },
+        //   //   ],
+        //   // },
+        //   {
+        //     title: 'My personal network',
+        //     items: [
+        //       {
+        //         label: 'Instagram',
+        //         href: 'https://www.instagram.com/luca.tardito',
+        //       },
+        //       {
+        //         label: 'Twitter',
+        //         href: 'https://twitter.com/tarditoluca',
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: 'My professional network',
+        //     items: [
+        //       {
+        //         label: 'Linkedin',
+        //         href: 'https://ie.linkedin.com/in/lucatardito',
+        //       },
+        //       {
+        //         label: 'GitHub',
+        //         href: 'https://github.com/lucatardi',
+        //       },
+        //     ],
+        //   },
+        // ],
         copyright: `Copyright © ${new Date().getFullYear()} tardito.dev`,
       },
       prism: {

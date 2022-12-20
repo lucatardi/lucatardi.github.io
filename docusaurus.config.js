@@ -114,7 +114,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} tardito.dev`,
+        copyright: `Coded with ❤️ by Luca Tardito`,
       },
       prism: {
         theme: lightCodeTheme,

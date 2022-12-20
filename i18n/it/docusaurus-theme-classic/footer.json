@@ -32,7 +32,6 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/facebook/docusaurus"
   },
   "copyright": {
-    "message": "Copyright © 2022 tardito.dev",
-    "description": "The footer copyright"
+    "message": "Sviluppato con ❤️ da Luca Tardito"
   }
 }

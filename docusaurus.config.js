@@ -58,13 +58,13 @@ const config = {
           src: 'img/penguin_icon.png',
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Tech Tutorial 👨🏻‍💻',
-          // },
-          // {to: '/blog', label: 'Travel Blog 🗺', position: 'left'},
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Tech',
+          },
+          // {to: '/blog', label: 'Travels', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'right',

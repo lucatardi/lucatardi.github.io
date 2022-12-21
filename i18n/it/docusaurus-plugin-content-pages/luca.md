@@ -54,13 +54,13 @@ Sono stato assunto da Cognizant nell'agosto 2018 come specialista del Web.
 La mia responsabilità principale era quella di aiutare sviluppatori ad installare ed utilizzare i sistemi Google per il tracciamento degli utenti nei loro siti web.
 
 #### eShopWorld
-I started at eShopWorld in middle 2019 as a Junior UI developer.
-During my time there I worked across different teams, working at the main checkout platform and in different pricing plugins.
+Ho iniziato a lavorare per eShopWorld a metà 2029 come junior sviluppatore UI.
+Ho lavorato con diversi team e diversi progetti, come ad esempio la principale piattaforma di checkout e in alcuni plug in per convertire valute.
 
 #### IBM
-I joined IBM in May 2020 as a Front end developer.
-At the time I started my team was about to release a new section within the IBM cloud called Security and Compliance, The first relaese went well and we work hard during my time there including an Angular application in the IBM Cloud which was writtent in React.
-IBM Cloud was heavly relying on IBM design sysyem and I was daily working with it, being often in contact with their development team, that was the moment I realised I wanted to get involved in the development of a design system.
+Mi sono unito ad IBM in maggio 2020 come sviluppatore Front end.
+Quando ho iniziato il mio team si preparava ad una grossa consegna per una nuova sezione del CLoud di IBM chiamata Security and Compliance.
 
 #### Travelport
-I moved to Travelport at the end of 2021 convinced by their project, the people during the interview process. my current job is within their design system team where I am part of the development of a set of packages used by different teams and projects across the organizations.
+Mi sono spostato a Travelport alla fine del 2021 convinto dal loro progetto e le persone che mi hanno fatto i colloqui.
+Ad ora lavoro nel loro team del design system dove sviluppiamo librerie utilizzate da altri team e progetti all'interno dell'organizzazione.

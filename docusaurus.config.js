@@ -64,7 +64,7 @@ const config = {
             position: 'left',
             label: 'Tech',
           },
-          // {to: '/blog', label: 'Travels', position: 'left'},
+          {to: '/blog', label: 'Travels', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'right',

@@ -1,5 +1,5 @@
 ---
-slug: bruxelles
+slug: brussels
 title: Bruxelles in un giorno
 authors: luca
 tags: [viaggi]

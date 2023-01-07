@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktardito_dev=self.webpackChunktardito_dev||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Brussels in a day","permalink":"/blog/brussels"}]}')}}]);

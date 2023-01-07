@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tardito.dev/blog</id>
     <title>Luca Tardito Blog</title>
-    <updated>2021-06-25T00:00:00.000Z</updated>
+    <updated>2021-08-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tardito.dev/blog"/>
     <subtitle>Luca Tardito Blog</subtitle>
     <icon>https://tardito.dev/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Cinque Terre]]></title>
+        <id>cinqueterre</id>
+        <link href="https://tardito.dev/blog/cinqueterre"/>
+        <updated>2021-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cinque Terre is a region in Italy that consists of five coastal towns located in the Liguria region. It is known for its beautiful scenery, which includes colorful houses built into the cliffs, vineyards, and olive groves. It is a popular tourist destination for its beaches, hiking trails, and seafood.]]></summary>
+        <content type="html"><![CDATA[<p>Cinque Terre is a region in Italy that consists of five coastal towns located in the Liguria region. It is known for its beautiful scenery, which includes colorful houses built into the cliffs, vineyards, and olive groves. It is a popular tourist destination for its beaches, hiking trails, and seafood.</p><p><img loading="lazy" alt="Picture brussels" src="/assets/images/primary-646c4329836fe4a59838936c91aef8e4.jpg" width="3024" height="4032" class="img_ev3q"></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-to-do">What to do<a class="hash-link" href="#what-to-do" title="Direct link to heading">​</a></h3><ul><li><p>Hike the trails: Cinque Terre is home to a network of trails that offer stunning views of the coast and the towns.</p></li><li><p>Visit the beaches: The region has several beautiful beaches, including Monterosso al Mare, Vernazza, and Riomaggiore.</p></li><li><p>Explore the towns: Each of the five towns has its own character and charm. Take some time to wander the narrow streets, visit the local churches and museums, and try the local food and wine.</p></li><li><p>Go fishing: Cinque Terre is known for its seafood, and you can try your hand at fishing in the Mediterranean Sea.</p></li><li><p>Take a boat tour: A boat tour is a great way to see the region's coastline and get a different perspective on the towns. You can also go scuba diving or snorkeling to see the marine life.</p></li></ul><p><img loading="lazy" alt="Picture brussels" src="/assets/images/secondary-46d391c6dd123864bd18b7f881ff5e26.jpg" width="3024" height="4032" class="img_ev3q"></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-to-eat">What to eat<a class="hash-link" href="#what-to-eat" title="Direct link to heading">​</a></h3><ul><li><p>Pesto: Pesto is a sauce made from basil, pine nuts, and garlic, and it is a specialty of the Liguria region. It is often served with pasta, but you can also find it used as a condiment on sandwiches or as a topping for pizza.</p></li><li><p>Focaccia: Focaccia is a flat bread that is popular in Cinque Terre. It is typically topped with herbs, olives, and salt, and it is often served as an appetizer or snack.</p></li><li><p>Trofie al pesto: Trofie is a type of pasta that is native to Liguria, and it is often served with pesto sauce.</p></li><li><p>Seafood: Cinque Terre is known for its seafood, and you can find a variety of dishes featuring fish, shellfish, and other seafood.</p></li><li><p>Gelato: No trip to Italy is complete without trying some gelato, and Cinque Terre is no exception. Be sure to sample the local flavors, such as lemon and basil.</p></li></ul><p><img loading="lazy" alt="Third" src="/assets/images/thernary-fa6181e9fa14c6a0f3b888039fe6d24f.jpg" width="3024" height="4032" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Luca Tardito</name>
+            <uri>https://www.instagram.com/luca.tardito/</uri>
+        </author>
+        <category label="travels" term="travels"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Brussels in a day]]></title>
         <id>brussels</id>

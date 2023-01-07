@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tardito.dev/it/blog</id>
     <title>Luca Tardito Blog</title>
-    <updated>2021-06-25T00:00:00.000Z</updated>
+    <updated>2021-08-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tardito.dev/it/blog"/>
     <subtitle>Luca Tardito Blog</subtitle>
     <icon>https://tardito.dev/it/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Cinque Terre]]></title>
+        <id>cinqueterre</id>
+        <link href="https://tardito.dev/it/blog/cinqueterre"/>
+        <updated>2021-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Le Cinque Terre sono una regione della Liguria in Italia, composta da cinque piccoli borghi costieri. Sono famose per il loro paesaggio mozzafiato, che comprende case colorate costruite sugli scogli, vigneti e uliveti. Sono una popolare destinazione turistica per le loro spiagge, i sentieri escursionistici e il pesce. Le Cinque Terre sono anche conosciute per la loro produzione di vino e olio d'oliva di alta qualità.]]></summary>
+        <content type="html"><![CDATA[<p>Le Cinque Terre sono una regione della Liguria in Italia, composta da cinque piccoli borghi costieri. Sono famose per il loro paesaggio mozzafiato, che comprende case colorate costruite sugli scogli, vigneti e uliveti. Sono una popolare destinazione turistica per le loro spiagge, i sentieri escursionistici e il pesce. Le Cinque Terre sono anche conosciute per la loro produzione di vino e olio d'oliva di alta qualità.</p><p><img loading="lazy" alt="Picture brussels" src="/it/assets/images/primary-646c4329836fe4a59838936c91aef8e4.jpg" width="3024" height="4032" class="img_ev3q"></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="cosa-fare">Cosa fare<a class="hash-link" href="#cosa-fare" title="Link diretto all'intestazione">​</a></h3><ul><li><p>Fare escursioni: Le Cinque Terre sono famose per i loro sentieri escursionistici, che offrono viste mozzafiato sulla costa e sui borghi.</p></li><li><p>Visitate le spiagge: La regione è dotata di diverse bellissime spiagge, tra cui Monterosso al Mare, Vernazza e Riomaggiore.</p></li><li><p>Esplorate i borghi: Ognuno dei cinque borghi ha il suo carattere e fascino. Prendetevi un po' di tempo per passeggiare per le strette strade, visitare le chiese e i musei locali e assaggiare il cibo e il vino locali.</p></li><li><p>Andate a pesca: Le Cinque Terre sono famose per il loro pesce, e potete provare a pescare nel Mediterraneo.</p></li><li><p>Fate una crociera in barca: Una crociera in barca è un ottimo modo per vedere la costa della regione e avere una prospettiva diversa sui borghi. Potete anche fare immersioni subacquee o snorkeling per vedere la vita marina.</p></li></ul><p><img loading="lazy" alt="Picture brussels" src="/it/assets/images/secondary-46d391c6dd123864bd18b7f881ff5e26.jpg" width="3024" height="4032" class="img_ev3q"></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-to-eat">What to eat<a class="hash-link" href="#what-to-eat" title="Link diretto all'intestazione">​</a></h3><ul><li><p>Pesto: Il pesto è una salsa a base di basilico, pinoli e aglio, ed è una specialità della regione della Liguria. Viene spesso servito con la pasta, ma si può anche trovare come condimento per tramezzini o come topping per la pizza.</p></li><li><p>Focaccia: La focaccia è un tipo di pane piatto molto popolare nelle Cinque Terre. Di solito è condita con erbe, olive e sale, e viene spesso servita come antipasto o snack.</p></li><li><p>Trofie al pesto: Le trofie sono un tipo di pasta originaria della Liguria, e vengono spesso servite con la salsa al pesto.</p></li><li><p>Pesce: Le Cinque Terre sono famose per il loro pesce, e si possono trovare diversi piatti a base di pesce, crostacei e altri frutti di mare.</p></li><li><p>Gelato: Un viaggio in Italia non è completo senza aver assaggiato il gelato, e le Cinque Terre non fanno eccezione. Assaggiate i gusti locali, come il limone e il basilico.</p></li></ul><p><img loading="lazy" alt="Third" src="/it/assets/images/thernary-fa6181e9fa14c6a0f3b888039fe6d24f.jpg" width="3024" height="4032" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Luca Tardito</name>
+            <uri>https://www.instagram.com/luca.tardito/</uri>
+        </author>
+        <category label="travels" term="travels"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bruxelles in un giorno]]></title>
         <id>brussels</id>

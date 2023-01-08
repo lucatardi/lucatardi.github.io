@@ -7,6 +7,8 @@ tags: [viaggi, italia]
 
 Le Cinque Terre si trovano sulla costa Ligure in Italia, e sono composte da cinque piccoli borghi. Sono famose per il loro paesaggio mozzafiato, che comprende case colorate costruite sugli scogli, vigneti e uliveti. Sono una popolare destinazione turistica per le loro spiagge, i sentieri escursionistici e il pesce. Le Cinque Terre sono anche conosciute per la loro produzione di vino e olio d'oliva di alta qualità.
 
+<!--truncate-->
+
 ![Manarola](./primary.jpg)
 
 ### Cosa fare

@@ -7,6 +7,8 @@ tags: [travels, italy]
 
 Cinque Terre is a region in Italy that consists of five coastal towns located in the Liguria region. It is known for its beautiful scenery, which includes colorful houses built into the cliffs, vineyards, and olive groves. It is a popular tourist destination for its beaches, hiking trails, and seafood.
 
+<!--truncate-->
+
 ![Manarola](./primary.jpg)
 
 ### What to do

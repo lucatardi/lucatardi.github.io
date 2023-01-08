@@ -7,6 +7,8 @@ tags: [travels, belgium]
 
 Brussels is the capital city of Belgium, and is located in central Belgium. It is known for its historic landmarks and cultural institutions, as well as its role as the seat of the European Union. The city is known for its chocolate, waffles, and beer, and is often referred to as the "Capital of Europe".
 
+<!--truncate-->
+
 ![Brussels](./main.jpg)
 
 ### What to do

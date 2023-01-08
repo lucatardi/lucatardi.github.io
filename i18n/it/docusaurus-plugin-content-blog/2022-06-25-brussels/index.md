@@ -7,6 +7,8 @@ tags: [viaggi, belgio]
 
 Bruxelles è la capitale del Belgio, situata nel centro del paese. È famosa per i suoi monumenti storici e le istituzioni culturali, nonché per il suo ruolo come sede dell'Unione Europea. La città è conosciuta per il cioccolato, le gaufre e la birra, e viene spesso definita la "Capitale d'Europa".
 
+<!--truncate-->
+
 ![Bruxelles](./main.jpg)
 
 ### Cose da fare

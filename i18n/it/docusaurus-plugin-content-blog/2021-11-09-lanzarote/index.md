@@ -2,7 +2,7 @@
 slug: lanzarote
 title: Lanzarote
 authors: luca
-tags: [travels, spain]
+tags: [viaggi, spagna]
 ---
 
 Lanzarote è un'isola spagnola situata nell'Oceano Atlantico al largo della costa africana. Fa parte delle Canarie ed è conosciuta per i suoi paesaggi vulcanici, le spiagge di sabbia bianca e nera e il clima caldo e secco. L'isola è una meta turistica molto popolare per i turisti europei e non solo.

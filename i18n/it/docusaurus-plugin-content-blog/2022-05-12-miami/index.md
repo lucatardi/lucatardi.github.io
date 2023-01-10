@@ -27,7 +27,7 @@ Miami è una città situata nella parte sud-orientale della Florida negli Stati 
 ![Little Havana](./secondary.jpg)
 
 ### Cosa mangiare
-- Panino cubano: un panino cubano, noto anche come "Cubano", è un panino robusto fatto con maiale arrosto, prosciutto, formaggio e cetrioli, premuto e riscaldato fino a quando il formaggio si scioglie e il pane è croccante. È un classico di Miami e può essere trovato in molti ristoranti e caffè locali.
+- Gelato di [Azucar](https://goo.gl/maps/ANoKaXgrTjqxjCfk8): Sembra strano lo so detto da un Italiano, ma sono rimasto piacevolmente stupito dal sapore di questo gelato, tanti gusti particolari che ti consiglio assolutamente di provare.
 
 - Granchi di pietra: Miami è conosciuta per i suoi deliziosi granchi di pietra, che vengono pescati nelle acque della costa della Florida e serviti freddi con salsa di senape. Sono di solito di stagione da ottobre a maggio.
 

@@ -25,14 +25,14 @@ Miami is a city located in southeastern Florida in the United States. It is know
 ![Little Havana](./secondary.jpg)
 
 ### What to eat
-- Cuban sandwich: A Cuban sandwich, also known as a "Cubano," is a hearty sandwich made with roast pork, ham, cheese, and pickles, pressed and heated until the cheese is melted and the bread is crispy. It's a Miami classic and can be found at many local restaurants and cafes.
+- [Azucar's](https://goo.gl/maps/ANoKaXgrTjqxjCfk8) ice cream: I was positively sursprised by the taste and quality of their ice cream, many particular flavours to try. When an Italian says an ice cream is good you should just try it.
+
+- Empanadas: Empanadas are savory pastries filled with a variety of fillings, such as meat, vegetables, or cheese. They are a popular snack in Miami and can be found at many local bakeries and food trucks.
 
 - Stone crabs: Miami is known for its delicious stone crabs, which are caught in the waters off the Florida coast and served chilled with mustard sauce. They are typically in season from October to May.
 
 - Key lime pie: Key lime pie is a Florida favorite and Miami is the perfect place to try it. This dessert is made with a graham cracker crust, a filling of sweetened, condensed milk and key lime juice, and a topping of whipped cream.
 
 - Ceviche: Ceviche is a popular seafood dish made with raw fish or shellfish that is "cooked" in citrus juice and seasoned with herbs and spices. It's a refreshing and light option that's perfect for a hot Miami day.
-
-- Empanadas: Empanadas are savory pastries filled with a variety of fillings, such as meat, vegetables, or cheese. They are a popular snack in Miami and can be found at many local bakeries and food trucks.
 
 ![Skyscrapers](./third.jpg)

@@ -44,6 +44,10 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: 'G-CFM6YSBP1V',
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
@@ -120,15 +124,6 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      plugins: [
-        [
-          '@docusaurus/plugin-google-gtag',
-          {
-            trackingID: 'G-CFM6YSBP1V',
-            anonymizeIP: true,
-          },
-        ],
-      ],
     }),
 };
 

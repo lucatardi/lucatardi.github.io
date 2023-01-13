@@ -64,4 +64,18 @@ Visit the Manneken Pis, a iconic bronze statue of a urinating boy that has becom
         <category label="travels" term="travels"/>
         <category label="spain" term="spain"/>
     </entry>
+    <entry>
+        <title type="html"><![CDATA[Lisbon]]></title>
+        <id>lisbon</id>
+        <link href="https://tardito.dev/blog/lisbon"/>
+        <updated>2021-10-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lisbon is the capital and largest city of Portugal. It is located on the Atlantic coast and is known for its historic architecture and cultural landmarks, such as the Belem Tower and the Jeronimos Monastery. It is also known for its vibrant nightlife, delicious seafood, and picturesque neighborhoods like Alfama and Bairro Alto.]]></summary>
+        <content type="html"><![CDATA[<p>Lisbon is the capital and largest city of Portugal. It is located on the Atlantic coast and is known for its historic architecture and cultural landmarks, such as the Belem Tower and the Jeronimos Monastery. It is also known for its vibrant nightlife, delicious seafood, and picturesque neighborhoods like Alfama and Bairro Alto.</p><p><img loading="lazy" alt="Tram" src="/assets/images/primary-8fcdc0dba837a3f66d9bccbd79289733.jpg" width="4032" height="3024" class="img_ev3q"></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-to-do">What to do<a class="hash-link" href="#what-to-do" title="Direct link to heading">​</a></h3><ul><li>Visit the historic Belem Tower and Jeronimos Monastery, which are UNESCO World Heritage sites and iconic landmarks of Lisbon.</li><li>Take a tram ride through the city to explore the picturesque neighborhoods of Alfama, Bairro Alto, and Baixa.</li><li>Enjoy the nightlife and live music in neighborhoods like Bairro Alto and Principe Real.</li><li>Visit the Gulbenkian Museum, which has a wide collection of art and artifacts from around the world.</li><li>Take a day trip to Sintra, a town located outside of Lisbon, known for its beautiful palaces and castles, including the Pena Palace and the Moorish Castle.</li></ul><p><img loading="lazy" alt="Belem" src="/assets/images/secondary-42a9ef472a07b19ae1a717ae6fbe8587.jpg" width="3024" height="4032" class="img_ev3q"></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-to-eat">What to eat<a class="hash-link" href="#what-to-eat" title="Direct link to heading">​</a></h3><ul><li>Try the traditional dish of "bacalhau" (salt cod) which is prepared in various styles such as "à brás" or "com natas" (with cream).</li><li>Sample some delicious seafood dishes, such as grilled sardines, octopus salad, and caldeirada (a fish stew).</li><li>Enjoy a "pastel de nata" (custard tart), a famous Portuguese pastry that originated in Lisbon's Belém neighborhood.</li><li>Try the traditional "cozido" a stew with various meats and vegetables, it is a hearty and comforting dish.</li><li>Enjoy a glass of "vinho verde" a young wine from the Minho region in the north of Portugal, it's refreshing and perfect for a hot summer day.</li></ul><p><img loading="lazy" alt="Lisbon street" src="/assets/images/third-31185ce4b88ba4e0dce5c4f96234dfbc.jpg" width="4032" height="3024" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Luca Tardito</name>
+            <uri>https://www.instagram.com/luca.tardito/</uri>
+        </author>
+        <category label="travels" term="travels"/>
+        <category label="portugal" term="portugal"/>
+    </entry>
 </feed>

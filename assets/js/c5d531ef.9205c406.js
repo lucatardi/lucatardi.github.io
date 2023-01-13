@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktardito_dev=self.webpackChunktardito_dev||[]).push([[9540],{4654:a=>{a.exports=JSON.parse('{"label":"spain","permalink":"/blog/tags/spain","allTagsPath":"/blog/tags","count":1}')}}]);

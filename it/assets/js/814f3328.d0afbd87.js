@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktardito_dev=self.webpackChunktardito_dev||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Post recenti","items":[{"title":"Cinque Terre","permalink":"/it/blog/cinqueterre"},{"title":"Bruxelles","permalink":"/it/blog/brussels"},{"title":"Miami","permalink":"/it/blog/miami"},{"title":"Lanzarote","permalink":"/it/blog/lanzarote"}]}')}}]);

@@ -120,6 +120,15 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      plugins: [
+        [
+          '@docusaurus/plugin-google-gtag',
+          {
+            trackingID: 'G-CFM6YSBP1V',
+            anonymizeIP: true,
+          },
+        ],
+      ],
     }),
 };
 

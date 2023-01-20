@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktardito_dev=self.webpackChunktardito_dev||[]).push([[6424],{9236:t=>{t.exports=JSON.parse('{"permalink":"/blog/tags/italy","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -120,6 +120,10 @@ const config = {
         // ],
         copyright: `Coded with ❤️ by Luca Tardito`,
       },
+      colorMode: {
+        defaultMode: 'light',
+        respectPrefersColorScheme: true
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

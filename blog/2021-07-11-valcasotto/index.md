@@ -9,7 +9,7 @@ The Valcasotto valley protects its gem: A huge white palace, built in 1100 and s
 
 <!--truncate-->
 
-![The Valcasotto's palace](first.jpeg)
+![The Valcasotto's palace](https://drive.google.com/uc?id=1FqVaFZMFepoyt63HzJq-xt-wbSGdEjvs)
 
 ### The History
 

@@ -37,3 +37,8 @@
   align-items: center;
   gap: 50px;
 }
+
+img {
+  border-radius: 90% 10% / 13% 82% 18% 87%; 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px -10px 38px -2px;
+}

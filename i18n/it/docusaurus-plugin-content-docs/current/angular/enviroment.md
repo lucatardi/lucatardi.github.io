@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Ambiente di sviluppo
 
-L'utilizzo di Angular richiede alcune dipendenze installate nel proprio computer:
+L'utilizzo di Angular richiede alcuni programmi installati nel proprio computer:
 
 ## Editor di codice
 

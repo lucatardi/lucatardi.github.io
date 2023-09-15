@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# Prerequisiti
+# Prerequisites
 
-Ottenere il massimo dal corso richiede la conoscenza base di sviluppo web, quali:
+To get the most out of this course, it requires a basic knowledge of web development, including:
 
-- Linguaggio di programmazione HTML.
-- Linguaggio di programmazione CSS.
-- Linguaggio di programmazione JavaScript.
+HTML programming language.
+CSS programming language.
+JavaScript programming language.
 
 
 

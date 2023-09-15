@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 # Enviroment
@@ -13,14 +13,14 @@ My personal choice and preference would be Visual Studio Code but amoung it ther
 
 ## Terminal
 
-Un terminale nel computer è un'interfaccia che consente di interagire con il sistema operativo attraverso l'eseguzione di comandi tramite testo. 
-I maggiori sistemi operativi hanno un terminale predefinito installato. Su Mac il terminale si chiama **Terminal** mentre su Windows si chiama **Command Prompt** o **Prompt dei comandi**.
+A terminal is a graphic interface which allows us to interact with the computer without having to use the user interface for it. This allows us to run and execute commands by just typing on it.
+
+Most major operating systems come with a default terminal or command-line interface installed. On macOS, the terminal is called **Terminal**, while on Windows, it's known as **Command Prompt**.
 
 ## Node.js
-Node.js e' la piattaforma che permette di eseguire del codice JavaScript al di fuori del browser.
-Cio' significa per esempio utilizzare JavaScript per la programmazione lato server, ovvero sul server o sul computer locale.
+Node.js is the platform that allows you to run JavaScript code outside of the web browser. This means, for example, using JavaScript for server-side programming, whether it's on a server or a local computer.
 
 ## NPM
-NPM (Node Package Manager) e' una raccolta di librerie e moduli di terze parti che possono essere installati ed integrati all'interno di progetti basati su Node.js.
+NPM (Node Package Manager) is a collection of third-party libraries and modules that can be installed and integrated into Node.js-based projects.
 
-NPM è uno strumento fondamentale per lo sviluppo di applicazioni Node.js, in quanto semplifica la gestione delle dipendenze e facilita l'utilizzo di librerie e moduli di terze parti. È ampiamente utilizzato dalla community di Node.js e rappresenta un componente essenziale dell'ecosistema Node.js.
+NPM is a fundamental tool for the development of Node.js applications as it simplifies dependency management and makes it easier to use third-party libraries and modules. It is widely used by the Node.js community and represents an essential component of the Node.js ecosystem.

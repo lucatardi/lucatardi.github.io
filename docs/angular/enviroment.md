@@ -46,3 +46,9 @@ The Angular Command Line Interface (or for short CLI) is a command-line tool tha
 **Dependency Management**: It can automatically install and manage project dependencies using npm or yarn, ensuring that your project uses the correct versions of libraries.
 
 Angular CLI simplifies many of the common tasks associated with Angular development, automating configuration and providing a consistent project structure. This allows developers to focus more on writing application code and less on setting up and managing development environments.
+
+To install Angular CLI we can open the terminal and run this command:
+
+```shell
+sudo npm install --location=global @angular/cli
+```

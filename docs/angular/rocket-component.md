@@ -58,3 +58,25 @@ In the TypeScript file, we find some lines of code:
 | styleUrls  | The files containing the CSS you want to apply to the component |
 
 - An empty class `MissileComponent` is created and exported.
+
+### Let's use our 🚀 component
+
+Before starting to modify our missile component let's try to render it in our app.
+
+A component can be rendered as an HTML tag using the selector's name wrapped by `<` and `>`
+
+so in the case of the missile component the selector is `app-missile` so we can go to the `app.component.html` and paste the following code below our `Hello world Angular`:
+
+```html
+<app-missile></app-missile>
+```
+
+Saving the file we should be able to see the our missile component renders and displaying its content: `missile works!`.
+
+Let's test our progress. the `app-missile` is quite an ugly selector, let's change it to `missile` only.
+
+We need to change it in the selector parameter and then change the relative HTML tag too.
+
+:::info
+Stuck in the last point? check [here](https://github.com/lucatardi/spazio/commit/6d3285bbbbbc64a7eb4ebbd14043cdc3bcc500f6?diff=split) the changes and try to apply them in your codebase.
+:::

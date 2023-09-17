@@ -57,3 +57,25 @@ nel file Typescrit troviamo alcune linee di codice:
 | styleUrls    | I file contenenti il CSS che si vuole applicare al componente   |
 
 - Una classe `MissileComponent` viene create vuota e esportata.
+
+### Utilizziamo il nostro 🚀 componente
+
+Prima di iniziare a modificare il nostro componente missile, proviamo a visualizzarlo nella nostra app.
+
+Un componente può essere caricato come un tag HTML utilizzando il nome del selettore racchiuso tra `<` e `>`. 
+
+Quindi, nel caso del componente missile, il selettore è `app-missile`, quindi possiamo andare nel file `app.component.html` e incollare il seguente codice sotto il nostro `Hello world Angular`:
+
+```html
+<app-missile></app-missile>
+```
+
+Salvando il file dovremmo essere in grado di vedere che il nostro componente missile si carica e mostra il suo contenuto: `missile works!`.
+
+Testiamo i nostri progressi. Il selettore `app-missile` non e' molto carino, cambiamolo in `missile` soltanto.
+
+Dobbiamo cambiarlo nel parametro del selettore e poi cambiare anche il tag HTML relativo.
+
+:::info
+Bloccati all'ultimo punto? Controlla [qui](https://github.com/lucatardi/spazio/commit/6d3285bbbbbc64a7eb4ebbd14043cdc3bcc500f6?diff=split) le modifiche e prova ad applicarle nel tuo codice sorgente.
+:::

@@ -149,8 +149,6 @@ Imagine adding 1000 missiles now; as you can see, this process seems very manual
 
 Now, we have automated the creation of an `<li>` element containing a missile using the `ngFor` directive.
 
-As a final step, let's automate the number of missiles that appear in the title in the missile list template. We'll use property binding (`{{}}`) syntax and the length of the `missili` array.
-
 :::info
 Lost in the final step? Find the code changes made in this lesson [here](https://github.com/lucatardi/spazio/commit/a1af00aebd17812d3a5c24a1f7645fc6a46e9781?diff=split).
 :::

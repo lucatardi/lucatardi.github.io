@@ -8,14 +8,15 @@ Credo fermamente che imparare qualsiasi cosa sia piu' facile quando si combina a
 
 # Il progetto
 
-L'idea e' quella di sviluppare un'interfaccia in grado di mostrare gli ultimi lanci spaziali effettutati da SpaceX. inizieremo con il simulare la risposta del server con un file JSON ed a popolare la nostra UI con i dati di esso.
+L'idea e' quella di sviluppare un'interfaccia in grado di mostrare gli ultimi missili spaziali nell'archivio di SpaceX. inizieremo con il popolamento dei dati in modo manuale per poi chiamare dalla nostra UI le API di SpaceX per ottenere valori reali.
 
-La UI conterra' una pagina principale dove verra mostrata all'utente una lista degli ultimi lanci, aggiungeremo anche una funzione ricerca con la quale l'utente potra' cercare dei lanci.
+La UI conterra' una pagina principale dove verra mostrata all'utente una lista dei missili, mostrando il nome, il paese di costruzione, l'immagine e lo stato.
 
-Ogni lancio qualora cliccato portera' ad una pagina di dettaglio con tutte le informazioni ad esso relative.
+Ogni elemento della lista avra' un link che portera' ad una pagina di dettaglio con tutte le informazioni ad esso relative.
 
 Infine connetteremo il nostro progetto con una API di SpaceX in modo da avere informazioni reali e alla data odierna.
 
+Qui possiamo vedere il risultato finale del progetto:
 
-TODO: add project pictures
+![Project intro](./project_intro.png)
 

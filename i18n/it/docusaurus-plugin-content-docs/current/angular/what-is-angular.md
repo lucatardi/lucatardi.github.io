@@ -31,7 +31,11 @@ Questo e' il motivo principale del perche' Angular e' uno dei framework per lo s
 
 ## La sua evoluzione nel tempo
 
-TODO
+Angular è un framework JavaScript open-source sviluppato da Google. La sua storia inizia nel 2010 quando Google rilasciò AngularJS, la prima versione di Angular. AngularJS ha rivoluzionato lo sviluppo web introducendo il concetto di "two-way data binding" e consentendo agli sviluppatori di creare applicazioni web dinamiche e complesse.
+
+Tuttavia, nel corso degli anni, AngularJS ha mostrato alcune limitazioni e problemi di prestazioni, portando alla necessità di una riscrittura completa. Nel 2016, Google ha presentato Angular 2 (senza il suffisso "JS"), che è stato completamente riscritto utilizzando TypeScript e ha introdotto una serie di miglioramenti significativi. Angular 2 ha ridefinito la struttura delle applicazioni web e ha introdotto un approccio basato su componenti per la costruzione di interfacce utente.
+
+Da allora, Google e la comunità open-source hanno continuato a sviluppare e migliorare Angular, rilasciando regolarmente nuove versioni.
 
 
 

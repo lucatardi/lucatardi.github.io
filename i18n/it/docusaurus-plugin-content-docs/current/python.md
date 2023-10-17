@@ -36,7 +36,7 @@ Python condivide la maggior parte dei primitivi con JavaScript:
 - Le **liste** (array in JS) sono rappresentate tra parentesi quadre e sono mutabili come in JS.
 - I **dizionari** (oggetti in JS) sono coppie chiave-valore, dove le chiavi sono di solito stringhe e sono mutabili come in JS.
 
-**Operatori**
+## Operatori
 
 Python utilizza gli stessi operatori che si trovano in JavaScript con alcune differenze:
 
@@ -48,10 +48,39 @@ Python utilizza gli stessi operatori che si trovano in JavaScript con alcune dif
 | O | `or` | `||` |
 | Non | `not` | `!` |
 
-**Variabili**
+## Variabili
 
 È possibile nominarle iniziando con una lettera o un trattino basso, sono sensibili alle maiuscole e non accettano segni. Fondamentalmente, sono molto simili alla convenzione di denominazione delle variabili in JavaScript:
 
 | Python | JavaScript |
 | --- | --- |
 | `price = 4` | `let price = 4` |
+
+## Stringhe
+Dichiariamo:
+```python
+animale_preferito = 'Pinguino'
+```
+
+Una stringa in Python ha le seguenti somiglianze con una stringa in JavaScript:
+- Può essere espressa con apici singoli o doppi. Ad esempio, `'Pinguino'` o `"Pinguino"`.
+- È iterabile e indicizzabile. Ad esempio, `animale_preferito[0]` è `'P'`.
+- È immutabile. Ad esempio, `animale_preferito[0] = 'p'` genererebbe un errore.
+
+Possiamo anche confrontare alcuni dei metodi disponibili per le stringhe:
+Descrizione|Python|JavaScript|
+|---|---|---|
+| Per convertire una stringa in maiuscolo |`upper()`| `toUpperCase()` |
+| Per convertire una stringa in minuscolo |`lower()`| `toLowerCase()` |
+
+## Liste
+
+In Python, un array JavaScript è chiamato "lista". Una lista vuota può essere creata così:
+
+```python
+prezzi = [30, 40]
+```
+
+Come un array JavaScript, una lista Python può:
+- Includere valori di diversi tipi. Ad esempio, `[True, 30, 'Pinguino']`
+-

@@ -83,4 +83,3 @@ prezzi = [30, 40]
 
 Come un array JavaScript, una lista Python può:
 - Includere valori di diversi tipi. Ad esempio, `[True, 30, 'Pinguino']`
--

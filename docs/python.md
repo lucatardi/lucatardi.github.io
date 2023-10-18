@@ -75,6 +75,10 @@ Description|Python|JavaScript|
 |---|---|---|
 | To turn a string uppercase |`upper()`| `toUpperCase()` |
 | To turn a string lowercase |`lower()`| `toLowerCase()` |
+| To remove empty spaces at the start and end of a string |`strip()`| `trim()` |
+| To find and replace a sub string |`replace()`| `replace()` |
+| To divide a string and generate an array |`split()`| `split()` |
+| To join a string with an array |`join()`| `join()` |
 
 ## Lists
 

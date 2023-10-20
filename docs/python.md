@@ -6,28 +6,6 @@ sidebar_position: 4
 
 A short guide for JavaScript developers who want to learn Python.
 
-## Origin
-
-It was invented by Guido Van Rossum in the 1991. While you may know the python as a large snake, the name of the Python programming language comes from an old BBC television comedy sketch series called Monty Python's Flying Circus.
-
-## Environment
-
-We can install Python from its [official website](https://www.python.org/downloads/).
-
-In Python `1.X` and Python `2.X`:
-
-```py
-10 / 3 = 3
-```
-
-so We really want to download a `3.X` version. 😅
-
-We can validate the correct installation by running in the terminal:
-
-```bash
-Python3 —-version
-```
-
 ## Primitives
 
 Python shares most of the primitives with JavaScript:
@@ -70,6 +48,8 @@ A string in Python has the following similarities with a string in JS:
 - It is iterable and indexed. eg `favorite_animal[0]` is `'P'`.
 - It is immutable. eg `favorite_animal[0] = 'p'` would throw an error.
 
+### Methods
+
 We can compare also some methods available from the strings:
 Description|Python|JavaScript|
 |---|---|---|
@@ -79,6 +59,10 @@ Description|Python|JavaScript|
 | To find and replace a sub string |`replace()`| `replace()` |
 | To divide a string and generate an array |`split()`| `split()` |
 | To join a string with an array |`join()`| `join()` |
+
+:::tip
+To get a full list of the method available you can print `Dir[favorite_animal]`.
+:::
 
 ## Lists
 

@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Luca Tardito',
-  tagline: 'Code & Travel',
+  tagline: 'Bar owner turned code enthusiast, perpetual explorer and penguins pal. 🐧',
   url: 'https://tardito.dev/',
   baseUrl: '/',
   onBrokenLinks: 'throw',

@@ -30,3 +30,5 @@ def twoSum(nums, target):
       if (number + nextNumber == target):
         return [idx, nextIdx + idx + 1]
 ```
+
+In this solution we have to iterate the whole array for each element in the input array which leads us to have a time complexity of the order of **O(n^2)**.

@@ -1,10 +1,10 @@
 {
 	"private": true,
-	"name": "nuro.dev",
+	"name": "tardito.dev",
 	"version": "2.1.1",
-	"description": "Personal Website for nuro.dev",
-	"repository": "https://github.com/nurodev/nuro.dev.git",
-	"author": "nurodev <me@nuro.dev>",
+	"description": "Personal Website for tardito.dev",
+	"repository": "https://github.com/lucatardi/lucatardi.github.io",
+	"author": "lucatardi",
 	"license": "MIT",
 	"prettier": {
 		"arrowParens": "always",

@@ -70,8 +70,7 @@ export default function ReferralsPage({ referrals }: ReferralsProps): JSX.Elemen
 			<div className="my-24 mx-2 sm:mx-6 lg:mb-28 lg:mx-8">
 				<div className="relative max-w-xl mx-auto">
 					<List.Container>
-						{/* FIXME: add again referrals by returning them instead of true */}
-						{referrals.map((referral, index) => true || (
+						{referrals.map((referral, index) => (
 							<Animate
 								animation={{ y: [50, 0], opacity: [0, 1] }}
 								key={index}

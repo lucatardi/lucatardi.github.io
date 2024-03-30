@@ -36,12 +36,12 @@ const ACTIONS: Array<NavigationItem> = [
 		icon: <Icon className="mr-3" icon="feather:instagram" />,
 		text: 'Instagram',
 	},
-	// {
-	// 	type: NavigationItemType.LINK,
-	// 	href: '/timeline',
-	// 	icon: <Icon className="mr-3" icon="feather:clock" />,
-	// 	text: 'Timeline',
-	// },
+	{
+		type: NavigationItemType.LINK,
+		href: '/timeline',
+		icon: <Icon className="mr-3" icon="feather:clock" />,
+		text: 'Timeline',
+	},
 ];
 
 export default function HomePage(): JSX.Element {
@@ -64,7 +64,7 @@ export default function HomePage(): JSX.Element {
 							scale: [0.75, 1],
 						}}
 						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold">
-						Ciao <span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '}
+						Ciao <span className="inline-block origin-70 hover:(animate-wave)">👋🏻</span>{' '}
 						<br></br>It&apos;s {' '} <Pill.Standard className="mt-4">Luca</Pill.Standard>
 					</Animate>
 

@@ -28,12 +28,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		// 	text: 'Projects',
 		// 	href: '/projects',
 		// },
-		// {
-		// 	type: NavigationItemType.LINK,
-		// 	icon: 'feather:clock',
-		// 	text: 'Timeline',
-		// 	href: '/timeline',
-		// },
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:clock',
+			text: 'Timeline',
+			href: '/timeline',
+		},
 		// {
 		// 	type: NavigationItemType.LINK,
 		// 	icon: 'feather:link',

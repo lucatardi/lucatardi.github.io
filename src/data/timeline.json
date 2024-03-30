@@ -1,78 +1,88 @@
 [
 	{
-		"date": "03-14-2022",
-		"title": "Started @ Wander",
-		"description": "Joined the Wander team",
+		"date": "03-20-2023",
+		"title": "New Home!",
+		"description": "Purchesed my apartment in Dublin.",
+		"icon": "feather:home"
+	},
+	{
+		"date": "11-15-2021",
+		"title": "Joined Travelport",
+		"description": "Joined the Atlas team as a Senior Web Developer to build the design system.",
 		"icon": "feather:briefcase",
 		"link": {
-			"text": "Visit Wander",
-			"url": "https://wander.com/"
+			"text": "Visit Travelport",
+			"url": "https://travelport.com/"
 		}
 	},
 	{
-		"date": "10-22-2021",
-		"title": "Launched nuro.dev",
-		"description": "Successfully launched my newly re-designed portfolio",
-		"icon": "feather:award"
-	},
-	{
-		"date": "03-15-2021",
-		"title": "Started @ Attio",
-		"description": "Joined the Attio team",
+		"date": "11-11-2020",
+		"title": "Started at IBM",
+		"description": "Joined the Compliance and Security center of the IBM Cloud as Frontend Developer.",
 		"icon": "feather:briefcase",
 		"link": {
-			"text": "Visit Attio",
-			"url": "https://attio.com/"
+			"text": "Visit IBM Cloud",
+			"url": "https://cloud.ibm.com/"
 		}
 	},
 	{
-		"date": "11-16-2020",
-		"title": "Started @ Aiming.pro",
-		"description": "Joined the Aiming.pro team",
+		"date": "08-15-2018",
+		"title": "Joined eShopWorld",
+		"description": "Joined the pricing team as User Interface Developer.",
 		"icon": "feather:briefcase",
 		"link": {
-			"text": "Visit Aiming.pro",
-			"url": "https://aiming.pro/"
+			"text": "Visit eShopWorld",
+			"url": "https://esw.com/"
 		}
 	},
 	{
-		"date": "07-15-2020",
-		"title": "Graduated University!",
-		"description": "Successfully completed my Bachelor's Degree",
-		"icon": "feather:award"
+		"date": "08-15-2018",
+		"title": "Started at Cognizant",
+		"description": "Outsourced in a Google project where we were developing and implementing custom solutions to track the users journey.",
+		"icon": "feather:briefcase",
+		"link": {
+			"text": "Visit Cognizant",
+			"url": "https://cognizant.com/"
+		}
 	},
 	{
-		"date": "10-11-2018",
+		"date": "04-06-2018",
 		"title": "First Developer Role",
-		"description": "Began an internship as a junior developer working at Stink Studios",
+		"description": "Began an internship as a front end developer at an Irish Startup called Outbound.",
 		"icon": "feather:briefcase",
 		"link": {
-			"text": "Visit Stink Studios",
-			"url": "https://stinkstudios.com/"
+			"text": "Visit Outbound",
+			"url": "https://outboundsales.io/"
 		}
 	},
 	{
-		"date": "03-04-2017",
-		"title": "Graduated University!",
-		"description": "",
-		"icon": "feather:briefcase"
+		"date": "04-23-2017",
+		"title": "Relocated to Dublin",
+		"description": "Left my small town in Italy to live in one of the major technology hubs in Europe.",
+		"icon": "feather:home"
 	},
 	{
-		"date": "08-01-2016",
+		"date": "04-20-2017",
+		"title": "Graduated University!",
+		"description": "Successfully completed my Bachelor's Science Degree in Software Engineering.",
+		"icon": "feather:book"
+	},
+	{
+		"date": "08-31-2016",
 		"title": "Sold my business!",
 		"description": "I decided to sell my business in order to focus on the studies and pursue a new career.",
 		"icon": "feather:award"
 	},
 	{
 		"date": "09-10-2011",
-		"title": "Enroll university",
-		"description": "I fall in love for coding and decided to enroll a bachelor degree in Software Engineering",
+		"title": "Started university",
+		"description": "I fall in love for coding and decided to enroll a Bachelor's Degree in Software Engineering.",
 		"icon": "feather:book"
 	},
 	{
 		"date": "08-01-2009",
 		"title": "Started my business",
-		"description": "Opened a bar and restaurant in my small town in Italy",
+		"description": "Opened a bar and restaurant in my small town in Italy.",
 		"icon": "feather:briefcase"
 	},
 	{

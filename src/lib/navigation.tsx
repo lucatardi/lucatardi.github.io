@@ -34,14 +34,15 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: 'Timeline',
 			href: '/timeline',
 		},
-		// {
-		// 	type: NavigationItemType.LINK,
-		// 	icon: 'feather:link',
-		// 	text: 'Referrals',
-		// 	href: '/referrals',
-		// },
 	],
 	[
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:download',
+			text: 'Curriculum vitae',
+			href: '/luca-tardito-CV.pdf',
+			external: true
+		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:github',

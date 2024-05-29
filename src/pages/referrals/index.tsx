@@ -14,16 +14,16 @@ import { ListAction, ListActionType, Theme } from '~/types';
 
 import type { GetStaticProps } from 'next';
 
-import type { Referrals } from '~/types';
+import type { Courses } from '~/types';
 
-interface ReferralsProps {
-	referrals?: Referrals;
+interface CoursesProps {
+	courses?: Courses;
 }
 
-export const getStaticProps: GetStaticProps<ReferralsProps> = async () => {
-	const { default: rawReferrals } = await import('~/data/referrals.json');
+export const getStaticProps: GetStaticProps<CoursesProps> = async () => {
+	const { default: rawCourses } = await import('~/data/courses.json');
 
-	const referrals = (rawReferrals as Referrals).sort((a, b) => {
+	const courses = (rawCourses as Courses).sort((a, b) => {
 		const nameA = a.name.toUpperCase();
 		const nameB = b.name.toUpperCase();
 
@@ -34,12 +34,12 @@ export const getStaticProps: GetStaticProps<ReferralsProps> = async () => {
 
 	return {
 		props: {
-			referrals,
+			courses,
 		},
 	};
 };
 
-export default function ReferralsPage({ referrals }: ReferralsProps): JSX.Element {
+export default function CoursesPage({ courses }: CoursesProps): JSX.Element {
 	const { theme } = useTheme();
 	const prefersDarkColorScheme = useMedia('(prefers-color-scheme: dark)', false);
 
@@ -55,7 +55,7 @@ export default function ReferralsPage({ referrals }: ReferralsProps): JSX.Elemen
 	}, [prefersDarkColorScheme, theme]);
 
 	return (
-		<Layout.Default seo={{ title: 'tardito.dev ─ referrals' }}>
+		<Layout.Default seo={{ title: 'tardito.dev ─ courses' }}>
 			<Toaster
 				toastOptions={{
 					position: 'bottom-right',
@@ -70,7 +70,7 @@ export default function ReferralsPage({ referrals }: ReferralsProps): JSX.Elemen
 			<div className="my-24 mx-2 sm:mx-6 lg:mb-28 lg:mx-8">
 				<div className="relative max-w-xl mx-auto">
 					<List.Container>
-						{referrals.map((referral, index) => (
+						{courses.map((referral, index) => (
 							<Animate
 								animation={{ y: [50, 0], opacity: [0, 1] }}
 								key={index}

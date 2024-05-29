@@ -10,4 +10,4 @@ export interface Referral {
 	url: string;
 }
 
-export type Referrals = Array<Referral>;
+export type Courses = Array<Referral>;

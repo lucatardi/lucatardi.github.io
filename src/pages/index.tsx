@@ -1,4 +1,5 @@
 import dynamic from 'next/dynamic';
+import Image from 'next/image';
 import { Icon } from '@iconify/react';
 
 import { Animate, Button, Pill } from '~/components';
@@ -64,10 +65,15 @@ export default function HomePage(): JSX.Element {
 							scale: [0.75, 1],
 						}}
 						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold">
-						Ciao <span className="inline-block origin-70 hover:(animate-wave)">👋🏻</span>{' '}
-						<br></br>It&apos;s {' '} <Pill.Standard className="mt-4">Luca</Pill.Standard>
+							<Image
+							    alt={"avatar"}
+								className="radius"
+							    height={200}
+								src={"/avatar.PNG"}
+								width={400}
+							    /><br></br>
+						Luca <Pill.Standard className="mt-4">Tardito</Pill.Standard> 
 					</Animate>
-
 					<Animate
 						as="p"
 						animation={{

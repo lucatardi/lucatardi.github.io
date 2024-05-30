@@ -30,6 +30,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		// },
 		{
 			type: NavigationItemType.LINK,
+			icon: 'feather:book-open',
+			text: 'Courses',
+			href: '/courses',
+		},
+		{
+			type: NavigationItemType.LINK,
 			icon: 'feather:clock',
 			text: 'Timeline',
 			href: '/timeline',

@@ -1,16 +1,14 @@
-import splitbee from '@splitbee/web';
-import toast from 'react-hot-toast';
-import writeText from 'copy-to-clipboard';
 import { Icon } from '@iconify/react';
 import { Toaster } from 'react-hot-toast';
 import { useMedia } from 'react-use';
 import { useMemo } from 'react';
 import { useTheme } from 'next-themes';
+import Image from 'next/image';
 
 import { colors } from '~/lib';
 import { Layout } from '~/layouts';
 import { Animate, List, Pill } from '~/components';
-import { ListAction, ListActionType, Theme } from '~/types';
+import { ListActionType, Theme } from '~/types';
 
 import type { GetStaticProps } from 'next';
 
@@ -70,7 +68,7 @@ export default function CoursesPage({ courses }: CoursesProps): JSX.Element {
 			<div className="my-24 mx-2 sm:mx-6 lg:mb-28 lg:mx-8">
 				<div className="relative max-w-xl mx-auto">
 					<List.Container>
-						{courses.map((referral, index) => (
+						{courses.map((course, index) => (
 							<Animate
 								animation={{ y: [50, 0], opacity: [0, 1] }}
 								key={index}
@@ -81,51 +79,32 @@ export default function CoursesPage({ courses }: CoursesProps): JSX.Element {
 									actions={[
 										{
 											type: ListActionType.LINK,
-											icon: 'feather:home',
-											label: `${referral.name} homepage`,
-											href: referral.homepage,
-										},
-										...(referral.code
-											? [
-													{
-														type: ListActionType.BUTTON,
-														icon: 'feather:hash',
-														label: 'Copy Referral Code',
-														onClick: () => {
-															writeText(referral.code);
-															toast.success('Copied referral code');
-														},
-													} as ListAction,
-											  ]
-											: []),
-										{
-											type: ListActionType.LINK,
 											icon: 'feather:external-link',
 											label: 'Referral Link',
-											href: referral.url,
-											onClick: () =>
-												splitbee.track(referral.name.toLowerCase(), {
-													code: referral.code,
-													type: 'referral',
-													url: referral.url,
-												}),
+											href: course.url
 										},
 									]}
-									description={referral.description}
-									icon={referral.icon}
-									iconColor={referral.color}
-									title={referral.name}>
-									{referral.bonus && (
+									description={course.description}
+									title={course.name}>
 										<div className="m-2 mt-0">
+										<div className="flex items-center justify-center w-full mt-5 mb-10">
+										<Image
+											alt={course.name + 'icon'}
+											draggable={false}
+											height="50"
+											src={isDark ? course.iconDark : course.iconLight}
+											width="200"
+											loading={"lazy"}
+										/>
+										</div>
 											<Pill.Standard className="flex items-center justify-center w-full md:pb-2 bg-primary-500 bg-opacity-15 saturate-200 text-sm text-primary-500 rounded-lg">
 												<Icon
 													className="mt-0.5 mr-2"
-													icon="feather:award"
+													icon="feather:globe"
 												/>
-												{referral.bonus}
+												{course.language}
 											</Pill.Standard>
 										</div>
-									)}
 								</List.Item>
 							</Animate>
 						))}

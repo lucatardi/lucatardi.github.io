@@ -11,7 +11,7 @@
 	{
 		"aliases": ["uptime", "status"],
 		"language": "Italian",
-		"description": "I principi dietro ad uno dei framework piu' utilizzati nello sviluppo di applicazioni web.",
+		"description": "Un corso compatto e focalizzato nell'acquisizione rapida e pratica delle fondamenta di Angular nel quale di guiderò, seguendo la guida ufficiale di Angular, passo a passo nella creazione di una semplice applicazione ed al termine del quale avrai una conoscenza di base della terminologia e la funzionalità di questo bellissimo framework.",
 		"name": "Le basi di Angular",
 		"url": "https://www.udemy.com/course/le-basi-di-angular/",
 		"iconLight": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",

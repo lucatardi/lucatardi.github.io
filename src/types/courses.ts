@@ -1,8 +1,9 @@
 export interface Course {
-	aliases?: Array<string>;
 	description: string;
 	name: string;
 	url: string;
+	level: string;
+    time: string;
 	language: string;
 	iconLight: string;
 	iconDark: string;

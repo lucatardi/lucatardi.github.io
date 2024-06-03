@@ -1,18 +1,20 @@
 [
 	{
-		"aliases": ["uptime", "status"],
 		"language": "Italian",
-		"description": "In questo corso andremo a vedere le basi di Angular, un framework utilizzato da diverse applicazioni che si utilizzano quotidianamente, come Gmail, PayPal e Youtube e quindi molto diffuso nel mercato.",
-		"name": "Come creare un’applicazione web con Angular",
+		"description": "In this course, we will cover the basics of Angular, a framework used by several applications that are used daily, such as Gmail, PayPal, and YouTube. It is therefore very popular in the market.",
+		"name": "How to Create a Web Application with Angular",
+		"time": "4h",
+		"level": "basic",
 		"url": "https://edulia.it/prodotto/come-creare-unapplicazione-web-con-angular",
 		"iconLight": "https://edulia.it/wp-content/themes/edulia/assets/dist/img/edulia-dal-sapere-treccani.svg",
 		"iconDark": "https://edulia.it/wp-content/uploads/2022/10/edulia-treccani.svg"
 	},
 	{
-		"aliases": ["uptime", "status"],
 		"language": "Italian",
-		"description": "Un corso compatto e focalizzato nell'acquisizione rapida e pratica delle fondamenta di Angular nel quale di guiderò, seguendo la guida ufficiale di Angular, passo a passo nella creazione di una semplice applicazione ed al termine del quale avrai una conoscenza di base della terminologia e la funzionalità di questo bellissimo framework.",
-		"name": "Le basi di Angular",
+		"description": "A compact and focused course on the quick and practical acquisition of Angular fundamentals, in which I will guide you, following the official Angular guide, step by step in creating a simple application. By the end of the course, you will have a basic understanding of the terminology and functionality of this beautiful framework.",
+		"name": "The Basics of Angular",
+		"time": "3h",
+		"level": "basic",
 		"url": "https://www.udemy.com/course/le-basi-di-angular/",
 		"iconLight": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
 		"iconDark": "https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg"

@@ -97,12 +97,25 @@ export default function CoursesPage({ courses }: CoursesProps): JSX.Element {
 											loading={"lazy"}
 										/>
 										</div>
-											<Pill.Standard className="flex items-center justify-center w-full md:pb-2 bg-primary-500 bg-opacity-15 saturate-200 text-sm text-primary-500 rounded-lg">
+											<Pill.Standard className="flex items-center justify-evenly w-full md:pb-2 bg-primary-500 bg-opacity-15 saturate-200 text-sm text-primary-500 rounded-lg">
+												<div className="flex items-center justify-center gap-2">
 												<Icon
-													className="mt-0.5 mr-2"
 													icon="feather:globe"
 												/>
 												{course.language}
+												</div>
+												<div className="flex items-center justify-center gap-2">
+												<Icon
+													icon="feather:clock"
+												/>
+												{course.time}
+												</div>
+												<div className="flex items-center justify-center gap-2">
+												<Icon
+													icon="feather:bar-chart-2"
+												/>
+												{course.level}
+												</div>
 											</Pill.Standard>
 										</div>
 								</List.Item>

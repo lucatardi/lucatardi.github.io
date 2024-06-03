@@ -43,6 +43,12 @@ const ACTIONS: Array<NavigationItem> = [
 		icon: <Icon className="mr-3" icon="feather:clock" />,
 		text: 'Timeline',
 	},
+	{
+		type: NavigationItemType.LINK,
+		href: '/courses',
+		icon: <Icon className="mr-3" icon="feather:book-open" />,
+		text: 'Courses',
+	},
 ];
 
 export default function HomePage(): JSX.Element {

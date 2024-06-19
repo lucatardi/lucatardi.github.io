@@ -11,8 +11,30 @@ date: '2024-06-17'
 
 ---
 
-There are no keywords for declaring a variable in Python, you simply write the name of it and assign the value:
+To create (declare) a variable in Python we don't need any keyword. We just need to specify the name of it and assign it a value after the `=` symbol.
+Let's declare some variables with the ingredients of our Pythonmisù:
 
-```py:recipe.py
-title = 'tiramisu'
+```py:ingredients.py
+mascarpone_cheese = '750g'
+sugar = '120g'
+eggs = 5
+espresso = 'just enough'
+cocoa_powder = 'just enough'
 ```
+
+## Comments
+
+---
+
+We can add comment in Python by adding the symbol `#` at the beginning of the line.
+Let's add a comment for how many people these ingredients are:
+
+```py:ingredients.py
+# Serving for 30cm x 20cm tray
+mascarpone_cheese = '750g'
+sugar = '120g'
+eggs = 5
+espresso = 'just enough'
+cocoa_powder = 'just enough'
+```
+

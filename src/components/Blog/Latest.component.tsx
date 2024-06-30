@@ -7,11 +7,12 @@ import type { FrontMatter } from '~/types';
 
 interface LatestProps {
 	frontmatter: FrontMatter;
+	destination?: 'blog' | 'recipes'
 }
 
-export function Latest({ frontmatter }: LatestProps): JSX.Element {
+export function Latest({ frontmatter, destination = 'blog' }: LatestProps): JSX.Element {
 	const ariaLabel = `Read blog post: ${frontmatter.title}`;
-	const href = `/blog/${frontmatter.slug}`;
+	const href = `/${destination}/${frontmatter.slug}`;
 
 	return (
 		<Link aria-label={ariaLabel} href={href} passHref>

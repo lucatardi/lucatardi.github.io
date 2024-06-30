@@ -16,12 +16,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			href: '/',
 		},
 		// TOFIX reneable navigation
-		// {
-		// 	type: NavigationItemType.LINK,
-		// 	icon: 'feather:edit-3',
-		// 	text: 'Blog',
-		// 	href: '/blog',
-		// },
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:coffee',
+			text: 'Recipes',
+			href: '/recipes',
+		},
 		// {
 		// 	type: NavigationItemType.LINK,
 		// 	icon: 'feather:copy',

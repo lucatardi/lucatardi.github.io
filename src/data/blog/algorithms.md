@@ -95,3 +95,66 @@ const seenNumbs = {}
 
 In this way we are just iterating the array only once and the time complexity is O(n).
 
+### Largest Positive Integer That Exists With Its Negative
+
+> Given an integer array nums that does not contain any zeros, find the largest positive integer k such that -k also exists in the array. Return the positive integer k. If there is no such integer, return -1.
+
+By traversing the array and for each number traversing the subarray starting from that number we can check all the couples to each others in the array. We then keep track of the largest number and update it only if the current numbers sum is 0 and it is bigger than largest.
+
+```js
+function findMaxK(nums) {
+    let largest = -1
+    for (let i = 0; i < nums.length; i++) {
+        for (let j = i + 1; j < nums.length; j++) {
+            if (nums[i] + nums[j] === 0) {
+                largest = Math.max(Math.abs(nums[i]), largest)
+            }
+        }
+    }
+    return largest
+};
+```
+
+We can do better as the current solution has a time complexity of O(n^2). By using a map we can try to do everything into only one iteration:
+
+```js
+function findMaxK(nums) {
+    const seenNums = {};
+    let maxNum = -1;
+
+    for (const num of nums) {
+        const absNum = Math.abs(num);
+        if (!(absNum in seenNums)) {
+           seenNums[absNum] = num;
+        } else {
+            seenNums[absNum] += num;
+        }
+        if (seenNums[absNum] === 0) {
+            maxNum = Math.max(maxNum, absNum);
+        }
+    }
+
+    return maxNum;
+}
+```
+
+In this solution we have a time complexity of O(n) as we are iterating over `nums` only once and keeping the logic within the loop to a linear time complexity. We still can optimase it a bit as we don't need a map but we can do everything with a set instead:
+
+```js
+function findMaxK(nums) {
+    const seenNums = new Set();
+    let maxNum = -1;
+
+    for (const num of nums) {
+        absNum = Math.abs(num);
+        if (seenNums.has(-num)) {
+            maxNum = Math.max(absNum, maxNum)
+        }
+        seenNums.add(num)
+    }
+
+    return maxNum;
+}
+```
+
+

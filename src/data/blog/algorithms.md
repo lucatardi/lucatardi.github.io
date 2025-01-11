@@ -157,4 +157,34 @@ function findMaxK(nums) {
 }
 ```
 
+###  Is Subsequence
 
+> Given two strings s and t, return true if s is a subsequence of t, or false otherwise. A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
+
+```js
+function isSubsequence(s, t) {
+    let tPointer = 0
+    if (s.length > t.length) {
+        return false
+    }
+    if (s.length === 0) {
+        return true
+    }
+    for (let i = 0; i < s.length; i++) {
+        let found = false
+        for (let j = tPointer; j < t.length; j++) {
+            if (s[i] === t[j]) {
+                if (i === s.length - 1) {
+                    return true
+                }
+                tPointer = j + 1
+                found = true
+                break
+            }
+        }
+        if (!found) { return false }
+    }
+
+    return false
+}
+```

@@ -10,7 +10,7 @@ date: '2025-01-08'
 Learning is hard work, but everything you learn is yours and will make subsequent learning easier.
 
 
-#### Palindrome
+### Palindrome
 
 > Given a string `s`, return `true` if it is a palindrome, `false` otherwise. A string is a palindrome if it reads the same forward as backward. That means, after reversing it, it is still the same string.
 
@@ -187,4 +187,46 @@ function isSubsequence(s, t) {
 
     return false
 }
+```
+
+### Maximum Depth of Binary Tree
+
+> Given the root of a binary tree, find the length of the longest path from the root to a leaf.
+
+To navigate through a binary tree by using a DFS (Deep First Search) algorithm in a recursive way we can think about three different stages:
+1. Handle empty nodes
+2. Do some logic for the current node
+3. Call the recursive function with the children
+4. Return the answer
+
+```js
+var maxDepth = function(root) {
+    if (!root) return 0
+
+    const left = maxDepth(root.left)
+    const right = maxDepth(root.right)
+
+    return Math.max(left, right) + 1
+};
+```
+
+The algoritm can be written by using the iterative approach where by using a stack combined with a while loop we navigate all nodes increementing the max depth:
+
+```js
+var maxDepth = function(root) {
+const nodesStack = [[root, 1]]
+    let maxDepth = 0
+    if (!root) return 0
+    while (nodesStack.length) {
+        const [node, depth] = nodesStack.pop()
+        if (node.left) {
+            nodesStack.push([node.left, depth + 1])
+        }
+        if (node.right) {
+            nodesStack.push([node.right, depth + 1])
+        }
+        maxDepth = Math.max(maxDepth, depth)
+    }
+    return maxDepth
+};
 ```

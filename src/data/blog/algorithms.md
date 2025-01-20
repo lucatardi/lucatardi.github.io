@@ -10,223 +10,50 @@ date: '2025-01-08'
 Learning is hard work, but everything you learn is yours and will make subsequent learning easier.
 
 
-### Palindrome
+## 217. Contains Duplicate
 
-> Given a string `s`, return `true` if it is a palindrome, `false` otherwise. A string is a palindrome if it reads the same forward as backward. That means, after reversing it, it is still the same string.
+> Given an integer array `nums`, return `true` if any value appears at least twice in the array, and return `false` if every element is distinct.
 
-If a string looks the same once reversed It means the first char is equal to the last one, the second is equal to the second last one and so on. By setting two `left` and `right` pointers and moving them closer until they meet while checking if they are the same we can understand if a string is palindrome.
+### Examples
+[1,3,5,3] returns `true`
+[1,3,5,2] returns `false`
 
-```js
-function isPalindrome(s) {
-    let left = 0;
-    let right = s.length - 1;
-
-    while (left < right) {
-        if (s[left] !== s[right]) {
-            return false;
-        }
-        left ++;
-        right --;
-    }
-    return true
-} 
-```
-
-### Sum of pairs
-
-> Given a sorted array of unique integers and a target integer, return true if there exists a pair of numbers that sum to target, false otherwise.
-
-As the array is sorted we can set two pointers `right` and `left` and move them accordingly checking if the sum of the values at the pointers indexes is more or less the target.
+### Brute force approach
+Compare each number in `nums` with the rest of `nums`:
+    return `true` if they are the same
+return `false` when all numbers have been checked
 
 ```js
-function sumOfPairs(nums, target) {
-    let left = 0;
-    let right = nums.length - 1;
-    while (left < right) {
-        const currentSum = nums[left] + nums[right];
-        if (currentSum === target) {
-            return true
-        }
-        if (currentSum > target) {
-            right --
-        } else {
-            left ++
-        }
-    }
-    return false
-}
-```
-
-The time complexity is O(n) and the space is O(1).
-
-### Sum of pairs (not sorted array)
-
-> Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-
-by traversing the array and for each number traversing the subarray starting from that number we can check all the couples to each others in the array.
-
-```js
-function twoSum(nums, target) {
-    for (let i = 0; i < nums.length; i++) {
-        for(let j = i + 1; j < nums.length; j++) {
-            if (nums[i] + nums[j] === target) {
-                return [i,j]
-            }
-        }
-    }
-};
-```
-
-This solution is far from efficient with a time complexity of O(n^2) as we need to iterate the array multiple times.
-A more efficient solution would be possible by using an hash map:
-
-```js
-function twoSum(nums, target) {
-const seenNumbs = {}
-    for (let i = 0; i < nums.length; i++) {
-        const diff = target - nums[i];
-        if (diff in seenNumbs) {
-            return [seenNumbs[diff], i]
-        }
-        seenNumbs[nums[i]] = i
-    }
-};
-```
-
-In this way we are just iterating the array only once and the time complexity is O(n).
-
-### Largest Positive Integer That Exists With Its Negative
-
-> Given an integer array nums that does not contain any zeros, find the largest positive integer k such that -k also exists in the array. Return the positive integer k. If there is no such integer, return -1.
-
-By traversing the array and for each number traversing the subarray starting from that number we can check all the couples to each others in the array. We then keep track of the largest number and update it only if the current numbers sum is 0 and it is bigger than largest.
-
-```js
-function findMaxK(nums) {
-    let largest = -1
+const containsDuplicate = (nums) => {
     for (let i = 0; i < nums.length; i++) {
         for (let j = i + 1; j < nums.length; j++) {
-            if (nums[i] + nums[j] === 0) {
-                largest = Math.max(Math.abs(nums[i]), largest)
+            if (nums[j] === nums[i]) {
+                return true
             }
         }
     }
-    return largest
-};
-```
-
-We can do better as the current solution has a time complexity of O(n^2). By using a map we can try to do everything into only one iteration:
-
-```js
-function findMaxK(nums) {
-    const seenNums = {};
-    let maxNum = -1;
-
-    for (const num of nums) {
-        const absNum = Math.abs(num);
-        if (!(absNum in seenNums)) {
-           seenNums[absNum] = num;
-        } else {
-            seenNums[absNum] += num;
-        }
-        if (seenNums[absNum] === 0) {
-            maxNum = Math.max(maxNum, absNum);
-        }
-    }
-
-    return maxNum;
-}
-```
-
-In this solution we have a time complexity of O(n) as we are iterating over `nums` only once and keeping the logic within the loop to a linear time complexity. We still can optimase it a bit as we don't need a map but we can do everything with a set instead:
-
-```js
-function findMaxK(nums) {
-    const seenNums = new Set();
-    let maxNum = -1;
-
-    for (const num of nums) {
-        absNum = Math.abs(num);
-        if (seenNums.has(-num)) {
-            maxNum = Math.max(absNum, maxNum)
-        }
-        seenNums.add(num)
-    }
-
-    return maxNum;
-}
-```
-
-###  Is Subsequence
-
-> Given two strings s and t, return true if s is a subsequence of t, or false otherwise. A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
-
-```js
-function isSubsequence(s, t) {
-    let tPointer = 0
-    if (s.length > t.length) {
-        return false
-    }
-    if (s.length === 0) {
-        return true
-    }
-    for (let i = 0; i < s.length; i++) {
-        let found = false
-        for (let j = tPointer; j < t.length; j++) {
-            if (s[i] === t[j]) {
-                if (i === s.length - 1) {
-                    return true
-                }
-                tPointer = j + 1
-                found = true
-                break
-            }
-        }
-        if (!found) { return false }
-    }
-
     return false
-}
-```
-
-### Maximum Depth of Binary Tree
-
-> Given the root of a binary tree, find the length of the longest path from the root to a leaf.
-
-To navigate through a binary tree by using a DFS (Deep First Search) algorithm in a recursive way we can think about three different stages:
-1. Handle empty nodes
-2. Do some logic for the current node
-3. Call the recursive function with the children
-4. Return the answer
-
-```js
-var maxDepth = function(root) {
-    if (!root) return 0
-
-    const left = maxDepth(root.left)
-    const right = maxDepth(root.right)
-
-    return Math.max(left, right) + 1
 };
 ```
 
-The algoritm can be written by using the iterative approach where by using a stack combined with a while loop we navigate all nodes increementing the max depth:
+The time complexity in this approach is not ideal as for each number we are looping the array so we can rappresent it as `O(n^2)`.
+
+### Optimized approach
+create empty hashmap {number: true}
+For each number in `nums`:
+    return `true` if number is already in hashmap
+    add number to hashmap
+return `false` when all numbers have been checked
 
 ```js
-var maxDepth = function(root) {
-const nodesStack = [[root, 1]]
-    let maxDepth = 0
-    if (!root) return 0
-    while (nodesStack.length) {
-        const [node, depth] = nodesStack.pop()
-        if (node.left) {
-            nodesStack.push([node.left, depth + 1])
+const containsDuplicate = (nums) => {
+    const numsMap = {}
+    for (const num of nums) {
+        if (num in numsMap) {
+            return true
         }
-        if (node.right) {
-            nodesStack.push([node.right, depth + 1])
-        }
-        maxDepth = Math.max(maxDepth, depth)
+        numsMap[num] = true
     }
-    return maxDepth
+    return false
 };
 ```

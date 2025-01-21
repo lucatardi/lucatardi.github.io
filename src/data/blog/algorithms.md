@@ -57,3 +57,75 @@ const containsDuplicate = (nums) => {
     return false
 };
 ```
+
+The time complexity in this approach is `O(n)` given only by the iteration of the array `nums` as for each step the read/write of the map has constant time.
+
+
+## 242. Valid Anagram
+
+> Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.
+
+### Examples
+
+s="cat" t="tac" => true
+s="race" t="rcae" => true
+s="car" t="cat" => false
+
+### Brute force approach
+for each letter in `s`:
+    traverse `t`:
+        return `false` if `t` does not contain the letter
+        remove the letter from `t` if found it
+return `true` if `t` is empty and `false` otherwise
+
+```js
+const isAnagram = (s, t) => {
+    for (const letterS of s) {
+        let found = false
+        for (const letterT of t) {
+            if (letterS === letterT) {
+                found = true
+            }
+        }
+        if (!found) {
+            return false
+        }
+        t = t.replace(letterS, "")
+    }
+    return !(t.length)
+};
+```
+
+Time complexity is `O(n^2)` given the two nested loops.
+
+### Optimised approach
+build a hashmap with the letters of `s` eg. {c: 1, a: 2}
+traverse `t` and for for each letter:
+    return `false` if letter is not in hashmap
+    remove/decrease letter from hashmap
+return `true` if hashmap empty and `false` otherwise
+
+```js
+const isAnagram = (s, t) => {
+    for (const letter of s) {
+        if (letter in lettersMap) {
+            lettersMap[letter] += 1
+        } else {
+            lettersMap[letter] = 1
+        }
+    }
+    for (const letter of t) {
+        if (letter in lettersMap) {
+            lettersMap[letter] -= 1
+            if (lettersMap[letter] === 0) {
+                delete lettersMap[letter]
+            }
+        } else {
+            return false
+        }
+    }
+    return Object.keys(lettersMap).length === 0
+};
+```
+
+The time complexity is `O(n)` as we are iterating over the two strings while using a hashmap to keep operations to a constant time.

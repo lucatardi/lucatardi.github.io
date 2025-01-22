@@ -107,6 +107,9 @@ return `true` if hashmap empty and `false` otherwise
 
 ```js
 const isAnagram = (s, t) => {
+    if (s.length !== t.length) {
+        return false
+    }
     for (const letter of s) {
         if (letter in lettersMap) {
             lettersMap[letter] += 1
@@ -129,3 +132,50 @@ const isAnagram = (s, t) => {
 ```
 
 The time complexity is `O(n)` as we are iterating over the two strings while using a hashmap to keep operations to a constant time.
+
+## 1. Two Sum
+
+> Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
+
+### Examples
+nums=[2,4,5]  target=7  => [0,2]
+
+### Brute force approach
+iterate `nums` and for each `number` and its `index`:
+    iterate rest of the array for each `numberRest` and its `indexRest`:
+        return `[index, indexRest]` if `number` + `numberRest` = `target`
+
+```js
+const TwoSum = (nums, target) => {
+    for (let i=0; i < nums.length; i++) {
+        for (let j = i+1; j < nums.length; j++) {
+            if (nums[i] + nums[j] == target) {
+                return [i, j]
+            }
+        }
+    }
+};
+```
+
+Time complexity is `O(n^2)` given the two nested loops.
+
+### Optimised approach
+create a map to store the seen numbers and their index eg. {2: 0, 4: 1}
+    loop the nums array and for each number and index:
+        check if map contains target - number: 
+            yes - return [map[target - number], index]
+            no - add target as a key to map and its index as value
+
+```js
+const TwoSum = (nums, target) => {
+    const seenNumsMap = {}
+    for (let i=0; i < nums.length; i++) {
+        if ((target - nums[i]) in seenNumsMap) {
+            return [seenNumsMap[target - nums[i]], i]
+        }
+        seenNumsMap[nums[i]] = i
+    }
+};
+```
+
+This solution has a time complexity of `O(n)` as we are looping only once and keeping the steps into the loop in constant time.

@@ -146,7 +146,7 @@ iterate `nums` and for each `number` and its `index`:
         return `[index, indexRest]` if `number` + `numberRest` = `target`
 
 ```js
-const TwoSum = (nums, target) => {
+const twoSum = (nums, target) => {
     for (let i=0; i < nums.length; i++) {
         for (let j = i+1; j < nums.length; j++) {
             if (nums[i] + nums[j] == target) {
@@ -167,7 +167,7 @@ create a map to store the seen numbers and their index eg. {2: 0, 4: 1}
             no - add target as a key to map and its index as value
 
 ```js
-const TwoSum = (nums, target) => {
+const twoSum = (nums, target) => {
     const seenNumsMap = {}
     for (let i=0; i < nums.length; i++) {
         if ((target - nums[i]) in seenNumsMap) {
@@ -179,3 +179,57 @@ const TwoSum = (nums, target) => {
 ```
 
 This solution has a time complexity of `O(n)` as we are looping only once and keeping the steps into the loop in constant time.
+
+## 141. Linked List Cycle
+
+> Given the head of a linked list, determine if the linked list has a cycle.
+
+### Examples
+![A circular linked list](/blogs/algorithms/circularlinkedlist.png 'A circular linked list')
+
+### Brute force approach
+We traverse the linked list and for each node
+    we check if node is already in set:
+        yes - we are inside a cicle so we return true
+        no - we push the node into set
+return false as we did not find duplicate nodes
+
+```js
+const hasCycle = (head) => {
+    const seen = new Set();
+    while (head !== null) {
+        if (seen.has(head)) {
+            return true
+        } else {
+            seen.add(head)
+        }
+        head = head.next
+    }
+    return false
+};
+```
+
+This solution has as a good time complexity of `O(n)` but the space complexity of `O(n)` as we are storing all the nodes into the set.
+
+### Optimised approach
+Create two pointers from head
+Traverse the linked list:
+    Move the first pointer to its next element
+    Move the second pointer to its next next element
+    return true if the second and the first pointers are pointing to the same node
+return false as we reached the end of the linked list
+
+```js
+const hasCycle = (head) => {
+    let slow = head;
+    let fast = head;
+    while (fast !== null && fast.next !== null) {
+        slow = slow.next;
+        fast = fast.next.next;
+        if (slow === fast) return true;
+    };
+    return false;
+};
+```
+
+This solution has the same time complexity as the brute force approach but we now have an improved space complexity of `O(1)`.

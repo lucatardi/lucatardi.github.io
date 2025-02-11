@@ -7,7 +7,7 @@ import type { FrontMatter } from '~/types';
 
 interface LatestProps {
 	frontmatter: FrontMatter;
-	destination?: 'blog' | 'recipes'
+	destination?: 'blog' | 'recipes' | 'trips'
 }
 
 export function Latest({ frontmatter, destination = 'blog' }: LatestProps): JSX.Element {

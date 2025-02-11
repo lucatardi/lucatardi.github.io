@@ -1,6 +1,6 @@
 ---
 banner_alt: A photo af a slice of Tiramisu
-banner: /recipes/tiramisu/tiramisu.JPG
+banner: https://i.imgur.com/DJPbeVp.jpeg
 title_prefix: The
 title: Tiramisu
 description: My own recipe of the most iconic Italian dessert

@@ -14,7 +14,7 @@ date: '2024-12-18'
 
 🌍 Explore [My map](https://maps.app.goo.gl/EyfjY877frerUhAo7) – A collection of the most beautiful places ✨
 ![](https://imgur.com/dnQ5ZcE.jpeg)
-![](https://imgur.com/gWNCZBS.jpeg)
+![](https://imgur.com/rlXgPaX.jpeg)
 ![](https://imgur.com/oPM3zgh.jpeg)
 ![](https://imgur.com/EQmZ9he.jpeg)
 ![](https://imgur.com/6qMhBCz.jpeg)

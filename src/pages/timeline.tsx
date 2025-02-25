@@ -61,7 +61,7 @@ export default function TimelinePage({ timeline: rawTimeline }: TimelineProps): 
 												<span>{event.title}</span>
 												<span className="flex-1 sm:hidden" />
 												<Pill.Date className="mt-2 sm:mt-0" small={true}>
-													{format(event.date, 'PPP')}
+													{format(event.date, 'MMMM yyyy')}
 												</Pill.Date>
 											</h1>
 

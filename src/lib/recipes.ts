@@ -43,7 +43,7 @@ export async function getAllPostsFrontMatter(): Promise<Array<FrontMatter>> {
 		.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf())
 		.map((f) => ({
 			...f,
-			date: format(new Date(f.date), 'PPP'),
+			date: format(new Date(f.date), 'MMMM yyyy'),
 		}));
 }
 
@@ -69,7 +69,7 @@ export async function getPost(slug: string): Promise<Post> {
 	return {
 		frontmatter: {
 			...frontmatter,
-			date: format(new Date(frontmatter.date), 'PPP'),
+			date: format(new Date(frontmatter.date), 'MMMM yyyy'),
 			slug: trimmedSlug,
 		},
 		source,

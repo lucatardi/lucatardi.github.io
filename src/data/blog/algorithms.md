@@ -1,16 +1,17 @@
 ---
-banner_alt: Algorithms
-banner: https://images.pexels.com/photos/17483850/pexels-photo-17483850/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-depicts-a-look-inside-how-ai-microchips-are-designed-it-was-created-by-champ-panupong-techawongthawon-as-part-of-the-v.png
-title_prefix: JavaScript
-title: Algorithms and Data Structures
-description: Let's explore the most iconic algoritms and data structures providing examples in JavaScript.
-date: '2025-01-08'
+banner_alt: Leetcode exercises
+banner: https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg
+title_prefix: Code
+title: Leetcode exercises
+description: Let's solve some leetcode challenges in JavaScript.
+date: '2025-02-25'
 ---
 
-Learning is hard work, but everything you learn is yours and will make subsequent learning easier.
+**"Learning is hard work, but everything you learn is yours and will make subsequent learning easier."**  
+— *Marijn Haverbeke*
 
 
-## 217. Contains Duplicate
+## Contains Duplicate
 
 > Given an integer array `nums`, return `true` if any value appears at least twice in the array, and return `false` if every element is distinct.
 
@@ -61,7 +62,7 @@ const containsDuplicate = (nums) => {
 The time complexity in this approach is `O(n)` given only by the iteration of the array `nums` as for each step the read/write of the map has constant time.
 
 
-## 242. Valid Anagram
+## Valid Anagram
 
 > Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.
 
@@ -133,7 +134,7 @@ const isAnagram = (s, t) => {
 
 The time complexity is `O(n)` as we are iterating over the two strings while using a hashmap to keep operations to a constant time.
 
-## 1. Two Sum
+## Two Sum
 
 > Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
 
@@ -180,7 +181,7 @@ const twoSum = (nums, target) => {
 
 This solution has a time complexity of `O(n)` as we are looping only once and keeping the steps into the loop in constant time.
 
-## 141. Linked List Cycle
+## Linked List Cycle
 
 > Given the head of a linked list, determine if the linked list has a cycle.
 
@@ -233,3 +234,14 @@ const hasCycle = (head) => {
 ```
 
 This solution has the same time complexity as the brute force approach but we now have an improved space complexity of `O(1)`.
+
+## Majority element
+
+> Given an array `nums` of size `n`, return the majority element. The majority element is the element that appears more than `⌊n / 2⌋` times. You may assume that the majority element always exists in the array.
+
+### Examples
+
+nums=[1,2,3,2,2] => 2
+nums=[5] => 5
+
+### Brute force approach

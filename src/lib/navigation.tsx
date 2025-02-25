@@ -15,19 +15,6 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: 'Home',
 			href: '/',
 		},
-		// TOFIX reneable navigation
-		{
-			type: NavigationItemType.LINK,
-			icon: 'feather:coffee',
-			text: 'Recipes',
-			href: '/recipes',
-		},
-		// {
-		// 	type: NavigationItemType.LINK,
-		// 	icon: 'feather:copy',
-		// 	text: 'Projects',
-		// 	href: '/projects',
-		// },
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:book-open',
@@ -48,6 +35,13 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: 'Curriculum vitae',
 			href: '/luca-tardito-CV.pdf',
 			external: true
+		},
+		{
+			type: NavigationItemType.LINK,
+			external: true,
+			href: 'https://www.linkedin.com/in/lucatardito/',
+			icon: 'feather:linkedin',
+			text: 'Linkedin',
 		},
 		{
 			type: NavigationItemType.LINK,

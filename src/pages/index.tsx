@@ -17,38 +17,24 @@ const Event = dynamic<EventProps>(
 );
 
 const ACTIONS: Array<NavigationItem> = [
-	// {
-	// 	type: NavigationItemType.LINK,
-	// 	href: '/blog',
-	// 	icon: <Icon className="mr-3" icon="feather:edit-3" />,
-	// 	text: 'Blog',
-	// },
 	{
 		type: NavigationItemType.LINK,
-		external: true,
-		href: 'https://www.linkedin.com/in/lucatardito/',
-		icon: <Icon className="mr-3" icon="feather:linkedin" />,
-		text: 'Linkedin',
+		href: '/blog',
+		icon: <Icon className="mr-3" icon="feather:edit-3" />,
+		text: 'Blog',
 	},
 	{
 		type: NavigationItemType.LINK,
-		external: true,
-		href: 'https://instagram.com/luca.tardito',
-		icon: <Icon className="mr-3" icon="feather:instagram" />,
-		text: 'Instagram',
+		icon: <Icon className="mr-3" icon="feather:coffee" />,
+		text: 'Recipes',
+		href: '/recipes',
 	},
 	{
 		type: NavigationItemType.LINK,
-		href: '/timeline',
-		icon: <Icon className="mr-3" icon="feather:clock" />,
-		text: 'Timeline',
-	},
-	{
-		type: NavigationItemType.LINK,
-		href: '/courses',
-		icon: <Icon className="mr-3" icon="feather:book-open" />,
-		text: 'Courses',
-	},
+		icon: <Icon className="mr-3" icon="feather:map" />,
+		text: 'Trips',
+		href: '/trips',
+	}
 ];
 
 export default function HomePage(): JSX.Element {
@@ -71,14 +57,14 @@ export default function HomePage(): JSX.Element {
 							scale: [0.75, 1],
 						}}
 						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold">
-							<Image
-							    alt={"avatar"}
-								className="radius"
-							    height={200}
-								src={"/avatar.PNG"}
-								width={400}
-							    /><br></br>
-						Luca <Pill.Standard className="mt-4">Tardito</Pill.Standard> 
+						<Image
+							alt={"avatar"}
+							className="radius"
+							height={200}
+							src={"/avatar.PNG"}
+							width={400}
+						/><br></br>
+						Luca <Pill.Standard className="mt-4">Tardito</Pill.Standard>
 					</Animate>
 					<Animate
 						as="p"

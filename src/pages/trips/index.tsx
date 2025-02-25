@@ -34,7 +34,7 @@ export default function BlogPage({ serialisedFrontmatters }: BlogProps): JSX.Ele
 					<Blog.Latest frontmatter={latestPost} destination="trips" />
 					<div className="mt-4 lg:mt-12 grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:max-w-none">
 						{frontmatters.map((frontmatter, i) => (
-							<Blog.Post key={i} frontmatter={frontmatter} index={i} />
+							<Blog.Post key={i} frontmatter={frontmatter} index={i} type='trips' />
 						))}
 					</div>
 				</div>

@@ -9,11 +9,12 @@ import clsx from 'clsx';
 interface PostProps {
 	index: number;
 	frontmatter: FrontMatter;
+	type: 'blog' | 'trips' | 'recipes'
 }
 
-export function _Post({ index, frontmatter }: PostProps): JSX.Element {
+export function _Post({ index, frontmatter, type }: PostProps): JSX.Element {
 	const ariaLabel = `Read blog post: ${frontmatter.title}`;
-	const href = `/blog/${frontmatter.slug}`;
+	const href = `/${type}/${frontmatter.slug}`;
 
 	return (
 		<Link aria-label={ariaLabel} href={href} passHref>

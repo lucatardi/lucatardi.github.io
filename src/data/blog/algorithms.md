@@ -245,3 +245,52 @@ nums=[1,2,3,2,2] => 2
 nums=[5] => 5
 
 ### Brute force approach
+Iterate the nums array and for each number:
+    Iterate the rest of the array and for each otherNumber:
+        Keep track to how many times the number appears
+    if number has appeared more than half the nums length we return number as a solution.
+
+```js
+const majorityElement = (nums) => {
+    for (let i = 0; i < nums.length; i++) {
+        let times = 0
+        for (let j = i; j < nums.length; j++) {
+            if (nums[j] === nums[i]) {
+                times ++
+                if (times >= nums.length / 2) {
+                    return nums[i]
+                }
+            }
+        }
+    }
+};
+```
+
+This approach leads to have a time complexity of `O(n^2)` as we have two nested loops. The space complexity is `O(1)` as we are keeping track of the times with a variable acting as a counter.
+
+### Optimised approach
+Create a map to track the seen numbers and the times we have seen them
+Iterate the nums array and for each number:
+    if map does not have number as a key in it, add it and set its value to 1
+    if map does have the number in it:
+        increment its value by one
+    if the value of number in map is equal or bigger than the half of the length of the input:
+        return number
+
+```js
+const majorityElement = (nums) => {
+    const seenNums = {}
+    for (let num of nums) {
+        if (num in seenNums) {
+            seenNums[num] += 1
+        } else {
+            seenNums[num] = 1
+        }
+        if (seenNums[num] >= nums.length / 2) {
+            return num
+        }
+    }
+};
+```
+
+This solution has a time complexity of `O(n)` as we are iterating the input array only once. The space complexity is `O(n)` as well as the object size will be given by the unique numbers in the input.

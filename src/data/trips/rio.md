@@ -1,9 +1,9 @@
 ---
 banner_alt: Me in in Rio De Janeiro
 banner: https://i.imgur.com/YzcxCoo.jpeg
-title_prefix: Brazil
+title_prefix: Brazil 🇧🇷
 title: Rio de Janeiro
-description: Brazil
+description: Brazil 🇧🇷
 date: '2024-12-18'
 ---
 
@@ -13,6 +13,7 @@ date: '2024-12-18'
 ![](https://imgur.com/TsextjG.jpeg)
 
 🌍 Explore [My map](https://maps.app.goo.gl/EyfjY877frerUhAo7) – A collection of the most beautiful places ✨
+
 ![](https://imgur.com/dnQ5ZcE.jpeg)
 ![](https://imgur.com/rlXgPaX.jpeg)
 ![](https://imgur.com/oPM3zgh.jpeg)

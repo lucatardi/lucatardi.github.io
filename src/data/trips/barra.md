@@ -1,9 +1,9 @@
 ---
 banner_alt: Barra Grande
 banner: https://i.imgur.com/qyQOn7x.jpg
-title_prefix: Brazil
+title_prefix: Brazil 🇧🇷
 title: Barra Grande
-description: Brazil
+description: Brazil 🇧🇷
 date: '2024-12-12'
 ---
 
@@ -13,6 +13,7 @@ date: '2024-12-12'
 ![](https://imgur.com/eFiuM29.jpeg)
 
 🌍 Explore [My map](https://maps.app.goo.gl/KVtVeT6mxys53zaWA) – A collection of the most beautiful places ✨
+
 ![](https://imgur.com/C1UTgAT.jpg)
 ![](https://imgur.com/vDGkP5X.jpg)
 ![](https://imgur.com/Kd4gBNZ.jpg)

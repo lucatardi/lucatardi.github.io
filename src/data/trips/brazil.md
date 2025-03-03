@@ -12,7 +12,7 @@ date: '2024-12-12'
 **"O Brasil não é para principiantes."**  
 — *Tom Jobim*
 
-🌍 Check out [My map](https://maps.app.goo.gl/KVtVeT6mxys53zaWA) – A collection of the must-visit places you don’t want to miss! ✨
+🌍 Check out [My map](https://maps.app.goo.gl/gr1bPJ13XB8hx96T9) – A collection of the must-visit places you don’t want to miss! ✨
 
 ## Barra Grande
 

@@ -1,8 +1,8 @@
 ---
 banner_alt: Brazil
-banner: https://imgur.com/EQmZ9he.jpeg
+banner: https://www.countryflags.com/wp-content/uploads/brazil-flag-png-large.png
 title_prefix: Rio, Salvador and Barra Grande
-title: Brazil 🇧🇷
+title: Brasil (Brazil)
 description: Rio, Salvador and Barra Grande
 date: '2024-12-12'
 ---
